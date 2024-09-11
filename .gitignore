@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Log files
+*.log
+
+# Cache directories
+.next/cache/
+.npm/
+.yarn/
+
+# System files
+.DS_Store
+Thumbs.db
