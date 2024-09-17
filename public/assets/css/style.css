@@ -5917,8 +5917,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .contact-section .contact-content .contact-area {
-  margin-bottom: 80px;
-  padding-top: 80px;
+  margin-bottom: 60px;
+  padding-top: 54px;
 }
 @media (max-width: 1399px) {
   .contact-section .contact-content .contact-area {
@@ -6019,7 +6019,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .contact-section .contact-form-wrap {
   padding-left: 70px;
-  margin-top: -220px;
+  margin-top: -120px;
 }
 @media (max-width: 1399px) {
   .contact-section .contact-form-wrap {

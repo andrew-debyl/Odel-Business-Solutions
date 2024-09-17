@@ -7,9 +7,9 @@
     },
     {
         "id": "2",
-        "name": "SOLUTIONS",
-        "slug": "/service/service2",
-        "pageTitle": "Services & Solutions."
+        "name": "Services",
+        "slug": "/networking",
+        "pageTitle": "Networking"
     },
     {
         "id": "3",
@@ -82,12 +82,6 @@
         "name": "BLOG DETAILS",
         "slug": "/blog/blog-details2",
         "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work."
-    },
-    {
-        "id": "12",
-        "name": "ABOUT US",
-        "slug": "/about",
-        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas."
     },
     {
         "id": "13",
@@ -189,6 +183,6 @@
         "id": "28",
         "name": "ABOUT US",
         "slug": "/about",
-        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas."
+        "pageTitle": "Providing comprehensive solutions with a focus on innovation and customer satisfaction."
     }
 ]

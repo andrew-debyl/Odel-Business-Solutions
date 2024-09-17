@@ -86,8 +86,8 @@
             },
             {
                 "id": "2",
-                "label": "Service style 02",
-                "link": "/service/service2"
+                "label": "Networking",
+                "link": "/networking"
             },
             {
                 "id": "3",
@@ -131,44 +131,6 @@
     },
     {
         "id": "4",
-        "label": "Blog",
-        "link": "/blog",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "label": "Blog Grid",
-                "link": "/blog"
-            },
-            {
-                "id": "2",
-                "label": "Blog Grid Sidebar",
-                "link": "/blog/blog-grid-sidebar"
-            },
-            {
-                "id": "3",
-                "label": "Blog List",
-                "link": "/blog/blog-list"
-            },
-            {
-                "id": "4",
-                "label": "Blog Standard",
-                "link": "/blog/blog-standard"
-            },
-            {
-                "id": "5",
-                "label": "Blog Details Style 01",
-                "link": "/blog/blog-details"
-            },
-            {
-                "id": "6",
-                "label": "Blog Details Style 02",
-                "link": "/blog/blog-details2"
-            }
-        ]
-    },
-    {
-        "id": "5",
         "label": "Pages",
         "link": "/page",
         "icon": true,
@@ -180,77 +142,11 @@
             },
             {
                 "id": "2",
-                "label": "Industry",
-                "link": "/industry"
-            },
-            {
-                "id": "3",
-                "label": "Portfolio",
-                "link": "/portfolio",
-                "icon": true,
-                "subMenu": [
-                    {
-                        "id": "1",
-                        "label": "Portfolio Grid",
-                        "link": "/portfolio"
-                    },
-                    {
-                        "id": "2",
-                        "label": "Portfolio Masonary",
-                        "link": "/portfolio/portfolio-masonary"
-                    },
-                    {
-                        "id": "3",
-                        "label": "Portfolio Info Flow",
-                        "link": "/portfolio/portfolio-info-flow"
-                    },
-                    {
-                        "id": "4",
-                        "label": "Portfolio List",
-                        "link": "/portfolio/portfolio-list"
-                    },
-                    {
-                        "id": "5",
-                        "label": "portfolio-Details",
-                        "link": "/portfolio/portfolio-details"
-                    }
-                ]
-            },
-            {
-                "id": "4",
-                "label": "Our Team",
-                "link": "/team",
-                "icon": true,
-                "subMenu": [
-                    {
-                        "id": "1",
-                        "label": "Team Style 01",
-                        "link": "/team"
-                    },
-                    {
-                        "id": "2",
-                        "label": "Team Style 01",
-                        "link": "/team2"
-                    }
-                ]
-            },
-            {
-                "id": "5",
                 "label": "Features",
                 "link": "/features"
             },
             {
-                "id": "6",
-                "label": "Pricing-Plan",
-                "link": "/pricing-plan"
-            },
-            {
-                "id": "7",
-                "label": "Faqs",
-                "link": "/faq"
-            },
-            {
-                "id": "8",
+                "id": "3",
                 "label": "Shop",
                 "link": "/shop",
                 "icon": true,
