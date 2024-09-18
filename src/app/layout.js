@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
           rel="icon"
           href="/public/assets/img/sm-logo.svg"
           type="image/x-icon"
-          sizes="16x16"
+          sizes="24x24"
         />
         <title>Odel Business Solutions</title>
       </head>

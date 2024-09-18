@@ -1,184 +1,119 @@
 [
-    {
+  {
+    "id": "1",
+    "label": "Home",
+    "link": "/",
+    "icon": true,
+    "subMenu": [
+      {
         "id": "1",
-        "label": "Home",
+        "label": "Light Version",
         "link": "/",
         "icon": true,
         "subMenu": [
-            {
-                "id": "1",
-                "label": "Light Version",
-                "link": "/",
-                "icon": true,
-                "subMenu": [
-                    {
-                        "id": "1",
-                        "label": "Startup Agency",
-                        "link": "/"
-                    },
-                    {
-                        "id": "2",
-                        "label": "Digital Marketing Agency",
-                        "link": "/digital-marketing"
-                    },
-                    {
-                        "id": "3",
-                        "label": "Saas Product",
-                        "link": "/saas"
-                    },
-                    {
-                        "id": "4",
-                        "label": "Creative Agency",
-                        "link": "/creative-agency"
-                    },
-                    {
-                        "id": "5",
-                        "label": "It Solution",
-                        "link": "/it-solution"
-                    }
-                ]
-            },
-            {
-                "id": "1",
-                "label": "Dark Version",
-                "link": "/",
-                "icon": true,
-                "subMenu": [
-                    {
-                        "id": "1",
-                        "label": "Startup Agency",
-                        "link": "/startup-agency-dark"
-                    },
-                    {
-                        "id": "2",
-                        "label": "Digital Marketing Agency",
-                        "link": "/digital-marketing-dark"
-                    },
-                    {
-                        "id": "3",
-                        "label": "Saas Product",
-                        "link": "/saas-dark"
-                    },
-                    {
-                        "id": "4",
-                        "label": "Creative Agency",
-                        "link": "/creative-agency-dark"
-                    },
-                    {
-                        "id": "5",
-                        "label": "It Solution",
-                        "link": "/it-solution-dark"
-                    }
-                ]
-            }
+          {
+            "id": "1",
+            "label": "Startup Agency",
+            "link": "/"
+          },
+          {
+            "id": "2",
+            "label": "Digital Marketing Agency",
+            "link": "/digital-marketing"
+          },
+          {
+            "id": "3",
+            "label": "Saas Product",
+            "link": "/saas"
+          },
+          {
+            "id": "4",
+            "label": "Creative Agency",
+            "link": "/creative-agency"
+          },
+          {
+            "id": "5",
+            "label": "It Solution",
+            "link": "/it-solution"
+          }
         ]
-    },
-    {
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "label": "Services",
+    "link": "",
+    "icon": true,
+    "subMenu": [
+      {
+        "id": "1",
+        "label": "Networking",
+        "link": "/networking"
+      },
+      {
         "id": "2",
-        "label": "Services",
-        "link": "/service",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "label": "Service style 01",
-                "link": "/service"
-            },
-            {
-                "id": "2",
-                "label": "Networking",
-                "link": "/networking"
-            },
-            {
-                "id": "3",
-                "label": "Service style 03",
-                "link": "/service/service3"
-            },
-            {
-                "id": "4",
-                "label": "Service style 04",
-                "link": "/service/service4"
-            },
-            {
-                "id": "4",
-                "label": "service details",
-                "link": "/service/service-details"
-            }
-        ]
-    },
-    {
+        "label": "IT Services",
+        "link": "/it-services"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "label": "Pages",
+    "link": "/page",
+    "icon": true,
+    "subMenu": [
+      {
+        "id": "1",
+        "label": "About",
+        "link": "/about"
+      },
+      {
+        "id": "2",
+        "label": "Features",
+        "link": "/features"
+      },
+      {
         "id": "3",
-        "label": "Case Study",
-        "link": "/case-study",
+        "label": "Shop",
+        "link": "/shop",
         "icon": true,
         "subMenu": [
-            {
-                "id": "1",
-                "label": "Case Study Style 01",
-                "link": "/case-study"
-            },
-            {
-                "id": "2",
-                "label": "Case Study Style 02",
-                "link": "/case-study/case-study2"
-            },
-            {
-                "id": "3",
-                "label": "Case Study Details",
-                "link": "/case-study/case-study-details"
-            }
+          {
+            "id": "1",
+            "label": "Shop",
+            "link": "/shop"
+          },
+          {
+            "id": "2",
+            "label": "Product-Details",
+            "link": "/product-details"
+          },
+          {
+            "id": "3",
+            "label": "Cart",
+            "link": "/cart"
+          },
+          {
+            "id": "4",
+            "label": "Checkout",
+            "link": "/checkout"
+          }
         ]
-    },
-    {
-        "id": "4",
-        "label": "Pages",
-        "link": "/page",
-        "icon": true,
-        "subMenu": [
-            {
-                "id": "1",
-                "label": "About",
-                "link": "/about"
-            },
-            {
-                "id": "2",
-                "label": "Features",
-                "link": "/features"
-            },
-            {
-                "id": "3",
-                "label": "Shop",
-                "link": "/shop",
-                "icon": true,
-                "subMenu": [
-                    {
-                        "id": "1",
-                        "label": "Shop",
-                        "link": "/shop"
-                    },
-                    {
-                        "id": "2",
-                        "label": "Product-Details",
-                        "link": "/product-details"
-                    },
-                    {
-                        "id": "3",
-                        "label": "Cart",
-                        "link": "/cart"
-                    },
-                    {
-                        "id": "4",
-                        "label": "Checkout",
-                        "link": "/checkout"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "6",
-        "label": "Contact",
-        "link": "/contact",
-        "icon": false
-    }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "label": "About",
+    "link": "/about",
+    "icon": false
+  },
+  {
+    "id": "5",
+    "label": "Contact",
+    "link": "/contact",
+    "icon": false
+  }
 ]

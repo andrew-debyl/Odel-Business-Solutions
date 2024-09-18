@@ -1,33 +1,15 @@
 [
     {
-        "id": "1",
-        "slug": "/service",
-        "name": "SOLUTIONS",
-        "pageTitle": "Services & Solutions."
-    },
-    {
         "id": "2",
         "name": "Services",
         "slug": "/networking",
         "pageTitle": "Networking"
     },
     {
-        "id": "3",
-        "name": "SOLUTIONS",
-        "slug": "/service/service3",
-        "pageTitle": "Services & Solutions."
-    },
-    {
-        "id": "4",
-        "name": "SOLUTIONS",
-        "slug": "/service/service4",
-        "pageTitle": "Services & Solutions."
-    },
-    {
         "id": "5",
-        "name": "SERVICE DETAILS",
-        "slug": "/service/service-details",
-        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas."
+        "name": "IT Services",
+        "slug": "/it-services",
+        "pageTitle": "Get rapid delivery and comprehensive IT solutions from top brands at unbeatable value."
     },
     {
         "id": "6",

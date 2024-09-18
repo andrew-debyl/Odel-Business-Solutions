@@ -10208,6 +10208,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   padding: 20px 25px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 @media (max-width: 1399px) {

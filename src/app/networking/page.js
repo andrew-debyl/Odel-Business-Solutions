@@ -24,7 +24,7 @@ const Networking = () => {
                 <h2>Explore Our Solutions</h2>
               </div>
               <Link
-                href="/service/service-details"
+                href="/contact"
                 className="primary-btn2 wow animate fadeInRight"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
@@ -94,7 +94,9 @@ const Networking = () => {
                   </div>
                 </div>
                 <div className="single-services">
-                  <div className="icon"></div>
+                  <div className="icon">
+                    
+                  </div>
                   <h5>
                     <div>Managed Network Services</div>
                   </h5>
