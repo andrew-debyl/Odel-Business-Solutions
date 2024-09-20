@@ -17,7 +17,7 @@ const ContactPage = () => {
             >
               <div className="section-title5 two">
                 <h2>
-                  Our Office <span>Location</span>
+                <span>Our Office Location</span>
                 </h2>
                 <p>
                   At ODEL Business Solutions, we understand that each

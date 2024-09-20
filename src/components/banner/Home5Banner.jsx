@@ -104,15 +104,6 @@ const Home5Banner = () => {
                     className="videoInput"
                     type="checkbox"
                   />
-                  <div className="video">
-                    <video
-                      src="assets/video/production_.mp4"
-                      loop
-                      muted
-                      autoPlay
-                      playsInline
-                    />
-                  </div>
                 </div>
               </div>
             </div>

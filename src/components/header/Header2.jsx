@@ -96,7 +96,7 @@ const Header2 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="/assets/img/temp.png"
+                src="/assets/img/logo-odel-dark.png"
               />
             </Link>
           </div>

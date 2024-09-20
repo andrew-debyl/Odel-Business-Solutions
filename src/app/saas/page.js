@@ -4,7 +4,7 @@ import Home3Blog from "@/components/blog/Home3Blog";
 import Home3countdown from "@/components/countdown/Home3countdown";
 import Home3Faq from "@/components/faq/Home3Faq";
 import Home3Feature from "@/components/feature/Home3Feature";
-import Footer3 from "@/components/footer/Footer3";
+import Footer2 from "@/components/footer/Footer2";
 import Header2 from "@/components/header/Header2";
 import LogoMarquee from "@/components/marquee/LogoMarquee";
 import Home3Newslatter from "@/components/newslatter/Home3Newslatter";
@@ -33,7 +33,7 @@ const SaasPage = () => {
       <Home3Faq />
       <Home3Tools />
       <Home3Blog />
-      <Footer3 />
+      <Footer2 />
     </>
   );
 };

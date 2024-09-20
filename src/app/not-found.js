@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from "@/components/footer/Footer";
+import Footer2 from "@/components/footer/Footer2";
 import Header1 from "@/components/header/Header1";
 import Link from "next/link";
 
@@ -42,7 +42,7 @@ export default function NotFound() {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer2 />
     </>
   );
 }

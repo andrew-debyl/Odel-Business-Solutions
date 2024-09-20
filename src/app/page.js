@@ -4,7 +4,7 @@ import Home1Banner from "@/components/banner/Home1Banner";
 import Home1Blog from "@/components/blog/Home1Blog";
 import BannerWithCaseStudySlider from "@/components/caseStudy/BannerWithCaseStudySlider";
 import Home1Contact from "@/components/contact/Home1Contact";
-import Footer3 from "@/components/footer/Footer3";
+import Footer2 from "@/components/footer/Footer2";
 import Header1 from "@/components/header/Header1";
 import Home1BannerMarquee from "@/components/marquee/Home1BannerMarquee";
 import LogoMarquee from "@/components/marquee/LogoMarquee";
@@ -13,11 +13,6 @@ import Home1Solution from "@/components/solution/Home1Solution";
 import Home1Testimonial from "@/components/testimonial/Home1Testimonial";
 import Home1WorkProcess from "@/components/workProcess/Home1WorkProcess";
 
-export const metadata = {
-  icons: {
-    icon: "/assets/img/sm-logo.svg",
-  },
-}
 export default function Home() {
   return (
     <>
@@ -34,7 +29,7 @@ export default function Home() {
       <Home1Testimonial />
       <Home1Blog />
       <Home1Contact />
-      <Footer3 />
+      <Footer2 />
     </>
   );
 }

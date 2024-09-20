@@ -51,12 +51,14 @@ const Networking = () => {
 
                   <div className="content">
                     <p>
-                      Whether you're looking for international IPVPN solutions
-                      or a dedicated WDM circuit, our expertise is second to
-                      none.
+                      We offer expert WAN and LAN services, including secure
+                      international IPVPN solutions and dedicated WDM circuits
+                      for high-capacity data transfer. Our reliable,
+                      high-performance solutions enhance your network’s
+                      efficiency and scalability, helping your business stay
+                      connected and competitive.
                     </p>
                   </div>
-                  
                 </div>
                 <div className="single-services">
                   <div className="icon">
@@ -68,13 +70,14 @@ const Networking = () => {
 
                   <div className="content">
                     <p>
-                      Choose from a range of services including reliable
-                      connectivity, robust storage and backup, antivirus
-                      protection, hosted email, e-safety, and web hosting, all
-                      designed to suit your specific requirements.
+                      We provide a range of ISP services tailored to your needs,
+                      including reliable connectivity, robust storage and
+                      backup, antivirus protection, hosted email, e-safety
+                      solutions, and web hosting. Each service is designed to
+                      enhance your online experience and ensure your operations
+                      run smoothly.
                     </p>
                   </div>
-                  
                 </div>
                 <div className="single-services">
                   <div className="icon">
@@ -86,12 +89,13 @@ const Networking = () => {
 
                   <div className="content">
                     <p>
-                      Our wireless solutions are meticulously crafted to support
-                      a truly mobile workforce, enhancing connectivity and
-                      flexibility.
+                      Our wireless solutions are designed to support a mobile
+                      workforce, providing enhanced connectivity and
+                      flexibility. Tailored to meet your needs, these solutions
+                      ensure your team stays connected and productive, no matter
+                      where they are.
                     </p>
                   </div>
-                  
                 </div>
                 <div className="single-services">
                   <div className="icon">
@@ -103,12 +107,12 @@ const Networking = () => {
 
                   <div className="content">
                     <p>
-                      We help reduce costs, revitalize your network, and
-                      simplify complexity with our comprehensive managed network
-                      services.
+                      Our managed network services help reduce costs, streamline
+                      operations, and revitalize your network. We simplify
+                      complexity, allowing you to focus on your core business
+                      while we handle your network management needs.
                     </p>
                   </div>
-                  
                 </div>
                 <div className="single-services">
                   <div className="icon">
@@ -120,12 +124,13 @@ const Networking = () => {
 
                   <div className="content">
                     <p>
-                      Benefit from our expert advice on security, network
-                      optimization, and more, ensuring your technology operates
-                      at its best.
+                      Leverage our expert advice on security, network
+                      optimization, and more to ensure your technology operates
+                      at peak performance. Our professional services are
+                      designed to enhance your systems and support your business
+                      goals effectively.
                     </p>
                   </div>
-                  
                 </div>
               </div>
             </div>

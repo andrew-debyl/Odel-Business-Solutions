@@ -1,21 +1,6 @@
 "use client";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 const Home3Feature = () => {
-  const settings = {
-    infinite: true,
-    centerMode: false,
-    arrows: false,
-    dots: false,
-    autoplay: false,
-    speed: 800,
-    slidesToScroll: 1,
-    vertical: true,
-    verticalSwiping: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   return (
     <>
       <div className="home3-feature-section mb-110">
@@ -24,33 +9,11 @@ const Home3Feature = () => {
             <div className="col-lg-6">
               <div className="feature-content-wrap">
                 <div
-                  className="section-title mb-40 wow animate fadeInDown"
+                  className="section-title2 mb-40 wow animate fadeInDown"
                   data-wow-delay="200ms"
                   data-wow-duration="1500ms"
                 >
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={10}
-                      height={10}
-                      viewBox="0 0 10 10"
-                    >
-                      <g>
-                        <circle cx={5} cy={5} r={5} />
-                      </g>
-                    </svg>
-                    Why Choose This
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={10}
-                      height={10}
-                      viewBox="0 0 10 10"
-                    >
-                      <g>
-                        <circle cx={5} cy={5} r={5} />
-                      </g>
-                    </svg>
-                  </span>
+                  <span>Why Choose This</span>
                   <h2>Innovate with Confidence</h2>
                   <p>
                     Welcome to Zenfy, where digital innovation meets strategic
@@ -116,37 +79,14 @@ const Home3Feature = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <Slider
-                {...settings}
-                className="slider single-item wow animate zoomIn"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="slider-item">
-                  <div className="feature-img">
-                    <img
-                      src="assets/img/home3/home3-feature-slider-img1.png"
-                      alt=""
-                    />
-                  </div>
+              <div className="slider-item">
+                <div className="feature-img">
+                  <img
+                    src="assets/img/home3/home3-feature-slider-img1.png"
+                    alt=""
+                  />
                 </div>
-                <div className="slider-item">
-                  <div className="feature-img">
-                    <img
-                      src="assets/img/home3/home3-feature-slider-img2.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="slider-item">
-                  <div className="feature-img">
-                    <img
-                      src="assets/img/home3/home3-feature-slider-img3.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </Slider>
+              </div>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import Home4Banner from "@/components/banner/Home4Banner";
 // import Home4Blog from "@/components/blog/Home4Blog";
 import Home4Contact from "@/components/contact/Home4Contact";
 import Home4experience from "@/components/experience/Home4experience";
-import Home4Footer from "@/components/footer/Home4Footer";
+import Footer2 from "@/components/footer/Footer2";
 import Header1 from "@/components/header/Header1";
 import LogoMarquee2 from "@/components/marquee/LogoMarquee2";
 import Home4Portfolio from "@/components/portfolio/Home4Portfolio";
@@ -40,7 +40,7 @@ const CreativeAgencyPage = () => {
       <Home4award />
       <Home4Team />
       <Home4Testimonial />
-      <Home4Footer />
+      <Footer2 />
     </>
   );
 };

@@ -4,7 +4,7 @@ import Home5About from "@/components/about/Home5About";
 import Home5Banner from "@/components/banner/Home5Banner";
 import Home5Blog from "@/components/blog/Home5Blog";
 import Home5Contact from "@/components/contact/Home5Contact";
-import Footer5 from "@/components/footer/Footer5";
+import Footer2 from "@/components/footer/Footer2";
 import Header1 from "@/components/header/Header1";
 import Home5BannerMarque from "@/components/marquee/Home5BannerMarque";
 import Home5Portfolio from "@/components/portfolio/Home5Portfolio";
@@ -33,7 +33,7 @@ const ItSolutionpage = () => {
       <Home5Team />
       <Home5Blog />
       <Home5Contact />
-      <Footer5 />
+      <Footer2 />
     </>
   );
 };
