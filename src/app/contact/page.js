@@ -20,9 +20,9 @@ const ContactPage = () => {
                   Our Office <span>Location</span>
                 </h2>
                 <p>
-                  Feel free adapt this based on the specific managed services,
-                  features, and unique selling points your IT service company
-                  provides.
+                  At ODEL Business Solutions, we understand that each
+                  organization has unique IT needs. Let us help you navigate the
+                  complexities of technology and drive your success.
                 </p>
               </div>
             </div>
@@ -37,10 +37,7 @@ const ContactPage = () => {
                 <div className="address">
                   <h4 className="title">The Exchange Tower</h4>
                   <span>Toronto</span>
-                  <p>
-                    Suite 1800, 130 King Street West,
-                    Toronto, ON M5X 1E3
-                  </p>
+                  <p>Suite 1800, 130 King Street West, Toronto, ON M5X 1E3</p>
                 </div>
                 <div className="working-hour">
                   <div className="icon">
@@ -57,9 +54,9 @@ const ContactPage = () => {
                   </div>
                   <div className="content">
                     <span>Working Hours</span>
-                    <h6>Mon to Sat : 8am- 9pm</h6>
+                    <h6>Mon to Fri : 9am- 5pm</h6>
                     <h6>
-                      Sunday : <span>Closed</span>
+                      Sun/Sat : <span>Closed</span>
                     </h6>
                   </div>
                 </div>
@@ -72,7 +69,7 @@ const ContactPage = () => {
             >
               <div className="company-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.9771447741286!2d-79.38589222346955!3d43.648643852725066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f28.1!3m3!1m2!1s0x882b34d261f4dcd5%3A0x824231cdc528fb61!2sExchange%20Tower%2C%20130%20King%20St%20W%20%231800%2C%20Toronto%2C%20ON%20M5X%202A2!5e0!3m2!1sen!2sca!4v1726764655379!5m2!1sen!2sca"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

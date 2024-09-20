@@ -28,9 +28,9 @@ const Networking = () => {
                 className="primary-btn2 wow animate fadeInRight"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
-                data-text="Explore More"
+                data-text="Discover More"
               >
-                <span>Explore More</span>
+                <span>Discover More</span>
               </Link>
             </div>
           </div>
@@ -42,7 +42,9 @@ const Networking = () => {
             <div className="col-lg-12">
               <div className="sevices-wrap">
                 <div className="single-services">
-                  <div className="icon"></div>
+                  <div className="icon">
+                    <img src="assets/icons/wanandlan.png" alt="" />
+                  </div>
                   <h5>
                     <div>WAN & LAN Services</div>
                   </h5>
@@ -54,12 +56,12 @@ const Networking = () => {
                       none.
                     </p>
                   </div>
-                  <div className="button-area">
-                    <div className="explore-btn">Learn More</div>
-                  </div>
+                  
                 </div>
                 <div className="single-services">
-                  <div className="icon"></div>
+                  <div className="icon">
+                    <img src="assets/icons/isp.png" alt="" />
+                  </div>
                   <h5>
                     <div>ISP Services</div>
                   </h5>
@@ -72,12 +74,12 @@ const Networking = () => {
                       designed to suit your specific requirements.
                     </p>
                   </div>
-                  <div className="button-area">
-                    <div className="explore-btn">Learn More</div>
-                  </div>
+                  
                 </div>
                 <div className="single-services">
-                  <div className="icon"></div>
+                  <div className="icon">
+                    <img src="assets/icons/wireless.png" alt="" />
+                  </div>
                   <h5>
                     <div>Wireless Solutions</div>
                   </h5>
@@ -89,13 +91,11 @@ const Networking = () => {
                       flexibility.
                     </p>
                   </div>
-                  <div className="button-area">
-                    <div className="explore-btn">Learn More</div>
-                  </div>
+                  
                 </div>
                 <div className="single-services">
                   <div className="icon">
-                    
+                    <img src="assets/icons/networkservices.png" alt="" />
                   </div>
                   <h5>
                     <div>Managed Network Services</div>
@@ -108,12 +108,12 @@ const Networking = () => {
                       services.
                     </p>
                   </div>
-                  <div className="button-area">
-                    <div className="explore-btn">Learn More</div>
-                  </div>
+                  
                 </div>
                 <div className="single-services">
-                  <div className="icon"></div>
+                  <div className="icon">
+                    <img src="assets/icons/proffservices.png" alt="" />
+                  </div>
                   <h5>
                     <div>Professional Services</div>
                   </h5>
@@ -125,9 +125,7 @@ const Networking = () => {
                       at its best.
                     </p>
                   </div>
-                  <div className="button-area">
-                    <div className="explore-btn">Learn More</div>
-                  </div>
+                  
                 </div>
               </div>
             </div>

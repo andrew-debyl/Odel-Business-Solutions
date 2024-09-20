@@ -8,43 +8,22 @@ const Home3Tools = () => {
           <div className="row justify-content-center mb-60">
             <div className="col-lg-8">
               <div
-                className="section-title text-center wow animate fadeInDown"
+                className="section-title2 text-center wow animate fadeInDown"
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
               >
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={10}
-                    height={10}
-                    viewBox="0 0 10 10"
-                  >
-                    <g>
-                      <circle cx={5} cy={5} r={5} />
-                    </g>
-                  </svg>
-                  Connect Fast
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width={10}
-                    height={10}
-                    viewBox="0 0 10 10"
-                  >
-                    <g>
-                      <circle cx={5} cy={5} r={5} />
-                    </g>
-                  </svg>
-                </span>
-                <h2>Integrate your favorite tools</h2>
+                <span>Product Offerings</span>
+                <h2>Our Product Range</h2>
                 <p>
-                  Welcome to Zenfy, where digital innovation meets strategic
-                  excellence. As a dynamic force in the realm of digital
-                  marketing, we are dedicated to propelling businesses into the
-                  spotlight of online success.
+                  Explore our extensive selection of IT solutions designed to
+                  elevate your business. We partner with leading brands to bring
+                  you cutting-edge equipment and systems that drive efficiency
+                  and growth.
                 </p>
               </div>
             </div>
           </div>
+
           <div className="row g-4">
             <div
               className="col-lg-4 col-sm-6 wow animate fadeInDown"

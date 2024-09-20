@@ -7181,7 +7181,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   border-bottom: none;
   position: relative;
   display: grid;
-  grid-template-columns: 10% 25% 45% 20%;
+  grid-template-columns: 10% 25% 60%;
   z-index: 1;
 }
 @media (max-width: 1399px) {
@@ -7225,6 +7225,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   max-width: 320px;
   width: 100%;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 991px) {
   .home2-service-section .sevices-wrap .single-services h5 {
@@ -7292,8 +7294,10 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-service-section .sevices-wrap .single-services .content {
   padding: 30px 0;
-  max-width: 560px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 767px) {
   .home2-service-section .sevices-wrap .single-services .content {
@@ -7340,6 +7344,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home2-service-section .sevices-wrap .single-services .button-area {
   padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 991px) {
   .home2-service-section .sevices-wrap .single-services .button-area {

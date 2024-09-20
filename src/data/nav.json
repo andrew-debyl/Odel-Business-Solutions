@@ -65,11 +65,6 @@
     "icon": true,
     "subMenu": [
       {
-        "id": "1",
-        "label": "About",
-        "link": "/about"
-      },
-      {
         "id": "2",
         "label": "Features",
         "link": "/features"
@@ -89,16 +84,6 @@
             "id": "2",
             "label": "Product-Details",
             "link": "/product-details"
-          },
-          {
-            "id": "3",
-            "label": "Cart",
-            "link": "/cart"
-          },
-          {
-            "id": "4",
-            "label": "Checkout",
-            "link": "/checkout"
           }
         ]
       }
