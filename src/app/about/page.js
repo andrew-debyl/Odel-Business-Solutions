@@ -2,7 +2,7 @@
 import React from "react";
 import MainLayout from "@/components/layout/MainLayout";
 import Home3countdown from "@/components/countdown/Home3countdown";
-import Home3Feature from "@/components/feature/Home3Feature";
+import Home2About from "@/components/about/Home2About";
 import Home3Tools from "@/components/tools/Home3Tools";
 import useWow from "@/hooks/useWow";
 
@@ -16,7 +16,7 @@ const Aboutpage = () => {
         id="about-section"
       ></div>
 
-      <Home3Feature />
+      <Home2About />
       <Home3countdown />
       <Home3Tools />
     </MainLayout>

@@ -1,7 +1,7 @@
 "use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
-import Link from "next/link";
+import Home5whyChoose from "@/components/why-choose/Home5whyChoose";
 
 const Networking = () => {
   useWow();
@@ -12,6 +12,11 @@ const Networking = () => {
         className="home2-service-section two scroll-margin mb-120"
         id="service-section"
       >
+        <Home5whyChoose />
+        <span className="networking-line-break"></span>
+        <br/>
+        <br/>
+        <br/>
         <div className="container">
           <div className="row mb-60">
             <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-3">
@@ -23,15 +28,6 @@ const Networking = () => {
                 <span>Our Services</span>
                 <h2>Explore Our Solutions</h2>
               </div>
-              <Link
-                href="/contact"
-                className="primary-btn2 wow animate fadeInRight"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-                data-text="Discover More"
-              >
-                <span>Discover More</span>
-              </Link>
             </div>
           </div>
           <div

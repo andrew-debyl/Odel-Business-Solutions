@@ -2,7 +2,7 @@
 import React from "react";
 import Header2 from "../header/Header2";
 import Breadcrumb from "./Breadcrumb";
-import Footer2 from "../footer/Footer2";
+import Footer3 from "../footer/Footer3";
 
 const MainLayout = ({ children }) => {
 
@@ -11,7 +11,7 @@ const MainLayout = ({ children }) => {
       <Header2 />
       <Breadcrumb />
       {children}
-      <Footer2 />
+      <Footer3 />
     </>
   );
 };

@@ -1,7 +1,7 @@
 [
     {
         "id": "2",
-        "name": "Services",
+        "name": "Networking",
         "slug": "/networking",
         "pageTitle": "Networking solutions that enhance connectivity and performance."
     },
@@ -12,124 +12,10 @@
         "pageTitle": "Fast delivery of top-brand IT solutions at unbeatable value."
     },
     {
-        "id": "6",
-        "name": "CASE STUDY",
-        "slug": "/case-study",
-        "pageTitle": "Success In The Field."
-    },
-    {
-        "id": "7",
-        "name": "CASE STUDY",
-        "slug": "/case-study/case-study2",
-        "pageTitle": "Success In The Field."
-    },
-    {
-        "id": "8",
-        "name": "CASE STUDY",
-        "slug": "/case-study/case-study-details",
-        "pageTitle": "Navigating Growth A Startup Agency Success Story. on Creative & unique ideas."
-    },
-    {
-        "id": "9",
-        "name": "BLOG",
-        "slug": "/blog",
-        "pageTitle": "Latest News Blog & Article."
-    },
-    {
-        "id": "9",
-        "name": "BLOG",
-        "slug": "/blog/blog-grid-sidebar",
-        "pageTitle": "Latest News Blog & Article."
-    },
-    {
-        "id": "10",
-        "name": "BLOG",
-        "slug": "/blog/blog-list",
-        "pageTitle": "Latest News Blog & Article."
-    },
-    {
-        "id": "11",
-        "name": "BLOG",
-        "slug": "/blog/blog-standard",
-        "pageTitle": "Latest News Blog & Article."
-    },
-    {
-        "id": "12",
-        "name": "BLOG DETAILS",
-        "slug": "/blog/blog-details",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work."
-    },
-    {
-        "id": "11",
-        "name": "BLOG DETAILS",
-        "slug": "/blog/blog-details2",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work."
-    },
-    {
-        "id": "13",
-        "name": "industry",
-        "slug": "/industry",
-        "pageTitle": "Challenge In Every Industry."
-    },
-    {
-        "id": "14",
-        "name": "portfolio",
-        "slug": "/portfolio",
-        "pageTitle": "Showcase Our Portfolio."
-    },
-    {
-        "id": "15",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-masonary",
-        "pageTitle": "Showcase Our Portfolio."
-    },
-    {
-        "id": "16",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-info-flow",
-        "pageTitle": "Showcase Our Portfolio."
-    },
-    {
-        "id": "17",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-list",
-        "pageTitle": "Showcase Our Portfolio."
-    },
-    {
-        "id": "17",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-details",
-        "pageTitle": "Showcase Our Portfolio."
-    },
-    {
-        "id": "18",
-        "name": "OUR TEAM",
-        "slug": "/team",
-        "pageTitle": "Our Creative Team."
-    },
-    {
-        "id": "19",
-        "name": "OUR TEAM",
-        "slug": "/team2",
-        "pageTitle": "Our Creative Team."
-    },
-    {
         "id": "20",
         "name": "FEATURES",
         "slug": "/features",
         "pageTitle": "Deep Dive Connective Power."
-    },
-    {
-        "id": "21",
-        "name": "pricing-plan",
-        "slug": "/pricing-plan",
-        "pageTitle": "Our Flexible Pricing Plan."
-    },
-    {
-        "id": "22",
-        "name": "faq",
-        "slug": "/faq",
-        "pageTitle": "Frequently Asked Questions."
     },
     {
         "id": "23",
@@ -144,18 +30,6 @@
         "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work."
     },
     {
-        "id": "25",
-        "name": "cart",
-        "slug": "/cart",
-        "pageTitle": "Instant Purchase."
-    },
-    {
-        "id": "26",
-        "name": "checkout",
-        "slug": "/checkout",
-        "pageTitle": "Secure Checkout."
-    },
-    {
         "id": "27",
         "name": "CONTACT US",
         "slug": "/contact",
@@ -165,6 +39,6 @@
         "id": "28",
         "name": "ABOUT US",
         "slug": "/about",
-        "pageTitle": "Providing comprehensive solutions with a focus on innovation and customer satisfaction."
+        "pageTitle": "About ODEL Business Solutions."
     }
 ]

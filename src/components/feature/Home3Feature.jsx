@@ -13,14 +13,8 @@ const Home3Feature = () => {
                   data-wow-delay="200ms"
                   data-wow-duration="1500ms"
                 >
-                  <span>Why Choose This</span>
-                  <h2>Innovate with Confidence</h2>
-                  <p>
-                    Welcome to Zenfy, where digital innovation meets strategic
-                    excellence. As a dynamic force in the realm of digital
-                    marketing, we are dedicated to propelling businesses into
-                    the spotlight of online success.
-                  </p>
+                  <span>IT Services</span>
+                  <h2>IT Solutions for Modern Businesses</h2>
                 </div>
                 <div className="feature-list-wrap">
                   <div className="progressBarContainer">
@@ -31,11 +25,14 @@ const Home3Feature = () => {
                     >
                       <div className="single-feature">
                         <div className="content">
-                          <h6>List &amp; Board View</h6>
+                          <h6>Rapid Delivery of Top IT Hardware</h6>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci onion of the most important to this work.
+                            We offer rapid delivery of IT hardware and
+                            infrastructure from top brands like Apple, Citrix,
+                            Dell, HP, IBM, Lenovo, NetApp, and VMware, at
+                            competitive prices. We ensure prompt and accurate
+                            delivery every time, setting us apart with our
+                            commitment to speed, quality, and value.
                           </p>
                         </div>
                       </div>
@@ -48,11 +45,12 @@ const Home3Feature = () => {
                     >
                       <div className="single-feature two pt-25">
                         <div className="content">
-                          <h6>Multiple Teams</h6>
+                          <h6>Business Agility with Cloud Services</h6>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci onion of the most important to this work.
+                            Our virtualization and cloud services enhance
+                            business agility, reduce costs, and enable mobility.
+                            Our solutions are designed to meet these needs
+                            effectively.
                           </p>
                         </div>
                       </div>
@@ -65,11 +63,14 @@ const Home3Feature = () => {
                     >
                       <div className="single-feature three pt-25">
                         <div className="content">
-                          <h6>No Page Load</h6>
+                          <h6>Full-Service IT Solutions</h6>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci onion of the most important to this work.
+                            Our team has the expertise of a full-service
+                            provider across voice, networking, data center, and
+                            contact center technologies. We deliver
+                            comprehensive services from design and
+                            implementation to management and support, using the
+                            latest technologies from leading vendors.
                           </p>
                         </div>
                       </div>
