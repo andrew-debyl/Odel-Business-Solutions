@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Printer",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      },
+      {
+        "id": "2",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Copier",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      },
+      {
+        "id": "2",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Scanner",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      },
+      {
+        "id": "2",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Laptop",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Tablet",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      },
+      {
+        "id": "2",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Desktop",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      },
+      {
+        "id": "2",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Server",
+    "products": [
+      {
+        "id": "1",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      },
+      {
+        "id": "2",
+        "name": "temp",
+        "desc": "temp desc",
+        "img": "/temp/temp.png"
+      }
+    ]
+  }
+]

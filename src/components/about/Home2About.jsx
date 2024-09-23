@@ -1,5 +1,4 @@
 "use client";
-import CountUp from "react-countup";
 
 const Home2About = () => {
   return (
@@ -16,8 +15,8 @@ const Home2About = () => {
                 >
                   <span>ODEL Business Solutions</span>
                   <h2>
-                    Providing comprehensive solutions with a focus on innovation
-                    and customer satisfaction
+                    Comprehensive solutions with a focus on innovation
+                    &amp; customer satisfaction
                   </h2>
                 </div>
                 <p>
@@ -44,10 +43,10 @@ const Home2About = () => {
             >
               <div className="about-feature-card">
                 <div className="icon">
-                  <img src="" alt=""></img>
+                  <img src="/assets/icons/itinovators.png" alt=""></img>
                 </div>
                 <div className="content">
-                  <h3>Enterprise IT Innovators</h3>
+                  <h3>Enterprise IT <br/>Innovators</h3>
                   <p>
                     Odel Business Solutions is a fast-growing leader in tailored
                     business solutions for enterprises. We provide everything
@@ -65,7 +64,7 @@ const Home2About = () => {
             >
               <div className="about-feature-card two">
                 <div className="icon">
-                  <img src="" alt=""></img>
+                  <img src="/assets/icons/techservices.png" alt=""></img>
                 </div>
                 <div className="content">
                   <h3>Comprehensive Technology Services</h3>
@@ -85,7 +84,7 @@ const Home2About = () => {
             >
               <div className="about-feature-card three">
                 <div className="icon">
-                  <img src="" alt=""></img>
+                  <img src="/assets/icons/effandgrowth.png" alt=""></img>
                 </div>
                 <div className="content">
                   <h3>Commitment to Excellence</h3>

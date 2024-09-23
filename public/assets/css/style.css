@@ -7107,9 +7107,10 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   text-align: center;
   border-radius: 10px;
   border: 1px solid rgba(var(--title-color-opc), 0.05);
-  background: #EDF8EB;
+  background: #d1dff0;
   padding: 30px;
   transition: 0.5s;
+  height: 430px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .home2-about-section .about-feature-card {
@@ -7156,16 +7157,13 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 0;
 }
 .home2-about-section .about-feature-card.two {
-  background: #F5F3EF;
+  background: #d1ecf0;
 }
 .home2-about-section .about-feature-card.three {
-  background: #F2F2F8;
+  background: #d1f0e7;
 }
 .home2-about-section .about-feature-card:hover {
   transform: translateY(-10px);
-}
-.home2-about-section .about-feature-card:hover .icon {
-  animation: zoomIn 0.7s linear;
 }
 
 /*=====================================
