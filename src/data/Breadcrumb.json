@@ -19,9 +19,9 @@
     },
     {
         "id": "23",
-        "name": "shop",
-        "slug": "/shop",
-        "pageTitle": "Explore Our Shop."
+        "name": "Products",
+        "slug": "/products",
+        "pageTitle": "Explore Our Products"
     },
     {
         "id": "24",

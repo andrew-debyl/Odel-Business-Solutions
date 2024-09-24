@@ -7,36 +7,28 @@
     "subMenu": [
       {
         "id": "1",
-        "label": "Light Version",
-        "link": "/",
-        "icon": true,
-        "subMenu": [
-          {
-            "id": "1",
-            "label": "Startup Agency",
-            "link": "/"
-          },
-          {
-            "id": "2",
-            "label": "Digital Marketing Agency",
-            "link": "/digital-marketing"
-          },
-          {
-            "id": "3",
-            "label": "Saas Product",
-            "link": "/saas"
-          },
-          {
-            "id": "4",
-            "label": "Creative Agency",
-            "link": "/creative-agency"
-          },
-          {
-            "id": "5",
-            "label": "It Solution",
-            "link": "/it-solution"
-          }
-        ]
+        "label": "Startup Agency",
+        "link": "/"
+      },
+      {
+        "id": "2",
+        "label": "Digital Marketing Agency",
+        "link": "/digital-marketing"
+      },
+      {
+        "id": "3",
+        "label": "Saas Product",
+        "link": "/saas"
+      },
+      {
+        "id": "4",
+        "label": "Creative Agency",
+        "link": "/creative-agency"
+      },
+      {
+        "id": "5",
+        "label": "It Solution",
+        "link": "/it-solution"
       }
     ]
   },
@@ -66,13 +58,45 @@
     "subMenu": [
       {
         "id": "1",
-        "label": "Shop",
-        "link": "/shop"
+        "label": "Printer",
+        "link": "/products/#printer",
+        "navId": "printer"
       },
       {
         "id": "2",
-        "label": "Product-Details",
-        "link": "/product-details"
+        "label": "Copier",
+        "link": "/products/#copier",
+        "navId": "copier"      
+      },
+      {
+        "id": "3",
+        "label": "Scanner",
+        "link": "/products/#scanner",
+        "navId": "scanner"
+      },
+      {
+        "id": "4",
+        "label": "Laptop",
+        "link": "/products/#laptop",
+        "navId": "laptop"
+      },
+      {
+        "id": "5",
+        "label": "Tablet",
+        "link": "/products/#tablet",
+        "navId": "tablet"
+      },
+      {
+        "id": "6",
+        "label": "Desktop",
+        "link": "/products/#desktop",
+        "navId": "desktop"
+      },
+      {
+        "id": "7",
+        "label": "Server",
+        "link": "/products/#server",
+        "navId": "server"
       }
     ]
   },

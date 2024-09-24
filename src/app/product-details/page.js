@@ -1,12 +1,10 @@
 "use client";
 import MainLayout from "@/components/layout/MainLayout";
-import useQuantityCounter from "@/hooks/useQuantityCounter";
 import Link from "next/link";
 import React from "react";
 
 const ProductDetailsPage = () => {
-  const { quantity, increment, decrement, handleInputChange } =
-    useQuantityCounter(1);
+
   return (
     <MainLayout>
       <div
@@ -150,10 +148,10 @@ const ProductDetailsPage = () => {
                 <div className="quantity-area">
                   <h6>Quantity</h6>
                   <div className="quantity-counter">
-                    <a  className="quantity__minus" style={{cursor:"pointer"}}><i className="bx bx-minus" onClick={decrement} /></a>
-                    <input name="quantity" type="text" className="quantity__input" value={quantity}
-                                      onChange={handleInputChange}  />
-                    <a className="quantity__plus" style={{cursor:"pointer"}}><i className="bx bx-plus" onClick={increment} /></a>
+                    <a  className="quantity__minus" style={{cursor:"pointer"}}><i className="bx bx-minus"  /></a>
+                    <input name="quantity" type="text" className="quantity__input" 
+                                       />
+                    <a className="quantity__plus" style={{cursor:"pointer"}}><i className="bx bx-plus"  /></a>
                   </div>
                 </div>
 

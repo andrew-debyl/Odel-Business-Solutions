@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useReducer, useRef } from "react";
+import { useEffect, useReducer, useRef } from "react";
 import navData from "../../data/nav.json";
 const initialState = {
   activeMenu: "",
@@ -10,6 +10,7 @@ const initialState = {
   isRightSidebar: false,
   isLang: false,
 };
+import { useValue } from "@/hooks/ValueContext";
 
 function reducer(state, action) {
   switch (action.type) {
@@ -72,17 +73,16 @@ const Header2 = () => {
     dispatch({ type: "TOGGLE_MENU", menu });
   };
 
-  const toggleRightSidebar = () => {
-    dispatch({ type: "TOGGLE_RIGHTSIDEBAR" });
+  const { setActiveTab } = useValue();
+  const { activeTab } = useValue();
+
+  const handleClick = (navId) => {
+    setActiveTab(navId);
   };
-  const toggleSubMenu = (subMenu) => {
-    dispatch({ type: "TOGGLE_SUB_MENU", subMenu });
-  };
-  const toggleSidebar = () => {
-    dispatch({ type: "TOGGLE_MENU", menu: "" });
-    dispatch({ type: "TOGGLE_SUB_MENU", subMenu: "" });
-    dispatch({ type: "TOGGLE_SIDEBAR" });
-  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeTab]);
 
   return (
     <>
@@ -132,40 +132,10 @@ const Header2 = () => {
                         {subMenu.map((subItem, subIndex) => (
                           <li key={subIndex}>
                             <Link legacyBehavior href={subItem.link}>
-                              <a>{subItem.label}</a>
+                              <a onClick={() => handleClick(subItem.navId)}>
+                                {subItem.label}
+                              </a>
                             </Link>
-                            {subItem.icon && subItem.icon ? (
-                              <>
-                                <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
-                                <i
-                                  onClick={() => toggleSubMenu(subItem.label)}
-                                  className={`d-lg-none d-flex bi bi-${
-                                    state.activeSubMenu === subItem.label
-                                      ? "dash"
-                                      : "plus"
-                                  } dropdown-icon `}
-                                />
-                              </>
-                            ) : (
-                              ""
-                            )}
-                            {subItem.subMenu && (
-                              <ul
-                                className={`sub-menu ${
-                                  state.activeSubMenu === subItem.label
-                                    ? "d-block"
-                                    : ""
-                                }`}
-                              >
-                                {subItem.subMenu.map((subItem, subIndex) => (
-                                  <li key={subItem.id}>
-                                    <Link legacyBehavior href={subItem.link}>
-                                      <a>{subItem.label}</a>
-                                    </Link>
-                                  </li>
-                                ))}
-                              </ul>
-                            )}
                           </li>
                         ))}
                       </ul>
