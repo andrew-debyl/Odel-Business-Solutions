@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useReducer, useRef } from "react";
+import { useEffect, useReducer, useRef } from "react";
 import navData from "../../data/nav.json";
 import ScrollProgress from "../common/ScrollProgress";
 const initialState = {
@@ -78,11 +78,6 @@ const Header1 = () => {
   };
   const toggleSubMenu = (subMenu) => {
     dispatch({ type: "TOGGLE_SUB_MENU", subMenu });
-  };
-  const toggleSidebar = () => {
-    dispatch({ type: "TOGGLE_MENU", menu: "" });
-    dispatch({ type: "TOGGLE_SUB_MENU", subMenu: "" });
-    dispatch({ type: "TOGGLE_SIDEBAR" });
   };
 
   return (

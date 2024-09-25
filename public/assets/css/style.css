@@ -7107,7 +7107,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   text-align: center;
   border-radius: 10px;
   border: 1px solid rgba(var(--title-color-opc), 0.05);
-  background: #d1dff0;
+  background: #edf5fd;
   padding: 30px;
   transition: 0.5s;
   height: 430px;
@@ -7157,10 +7157,10 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   margin-bottom: 0;
 }
 .home2-about-section .about-feature-card.two {
-  background: #d1ecf0;
+  background: #c9e0f8;
 }
 .home2-about-section .about-feature-card.three {
-  background: #d1f0e7;
+  background: #a5ccf3;
 }
 .home2-about-section .about-feature-card:hover {
   transform: translateY(-10px);
@@ -9496,32 +9496,30 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   border-bottom: 1px solid rgba(var(--text-color-opc), 0.2);
   padding-left: 80px;
   padding-right: 80px;
-  gap: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .home3-project-management-section .project-management-tab-wrapper .project-management-nav .nav-tabs {
     padding-left: 60px;
     padding-right: 60px;
-    gap: 24px;
+   
   }
 }
 @media (max-width: 1199px) {
   .home3-project-management-section .project-management-tab-wrapper .project-management-nav .nav-tabs {
     padding-left: 0;
     padding-right: 0;
-    gap: 5px;
+    
   }
 }
-@media (max-width: 991px) {
-  .home3-project-management-section .project-management-tab-wrapper .project-management-nav .nav-tabs {
-    gap: 0px;
-  }
-}
-@media (max-width: 576px) {
+
+@media (max-width: 770px) {
   .home3-project-management-section .project-management-tab-wrapper .project-management-nav .nav-tabs {
     flex-direction: column;
   }
 }
+
 .home3-project-management-section .project-management-tab-wrapper .project-management-nav .nav-tabs .nav-link {
   color: rgba(var(--title-color-opc), 0.5);
   font-family: var(--font-inter);
