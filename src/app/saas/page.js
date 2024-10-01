@@ -5,11 +5,10 @@ import Home3countdown from "@/components/countdown/Home3countdown";
 import Home3Faq from "@/components/faq/Home3Faq";
 import Home3Feature from "@/components/feature/Home3Feature";
 import Footer2 from "@/components/footer/Footer2";
-import Header2 from "@/components/header/Header2";
+import Header1 from "@/components/header/Header1";
 import LogoMarquee from "@/components/marquee/LogoMarquee";
 import Home3Newslatter from "@/components/newslatter/Home3Newslatter";
 import Home3PricingPlan from "@/components/pricing-plan/Home3PricingPlan";
-import Home3ProjectManagement from "@/components/projectManagement/Home3ProjectManagement";
 import Home3Testimonial from "@/components/testimonial/Home3Testimonial";
 import Home3Tools from "@/components/tools/Home3Tools";
 import Home3WorkProcess from "@/components/workProcess/Home3WorkProcess";
@@ -20,11 +19,10 @@ const SaasPage = () => {
   useWow()
   return (
     <>
-      <Header2 />
+      <Header1 />
       <Home3Banner />
       <Home3WorkProcess />
       <Home3countdown />
-      <Home3ProjectManagement />
       <LogoMarquee />
       <Home3Testimonial />
       <Home3Feature />

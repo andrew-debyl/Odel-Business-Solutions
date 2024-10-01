@@ -1,44 +1,81 @@
 [
     {
-        "id": "2",
+        "id": "1",
         "name": "Networking",
         "slug": "/networking",
         "pageTitle": "Networking solutions that enhance connectivity and performance."
     },
     {
-        "id": "5",
+        "id": "2",
         "name": "IT Services",
         "slug": "/it-services",
         "pageTitle": "Fast delivery of top-brand IT solutions at unbeatable value."
     },
     {
-        "id": "20",
+        "id": "3",
         "name": "FEATURES",
         "slug": "/features",
         "pageTitle": "Deep Dive Connective Power."
     },
     {
-        "id": "23",
+        "id": "4",
         "name": "Products",
         "slug": "/products",
         "pageTitle": "Explore Our Products"
     },
     {
-        "id": "24",
-        "name": "product-details",
-        "slug": "/product-details",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work."
-    },
-    {
-        "id": "27",
+        "id": "5",
         "name": "CONTACT US",
         "slug": "/contact",
         "pageTitle": "Connect with Our Experts"
     },
     {
-        "id": "28",
+        "id": "6",
         "name": "ABOUT US",
         "slug": "/about",
         "pageTitle": "About ODEL Business Solutions."
+    }
+    ,
+    {
+        "id": "7",
+        "name": "Printer",
+        "slug": "/products/printer",
+        "pageTitle": "Explore Our Printers"
+    },
+    {
+        "id": "8",
+        "name": "Copier",
+        "slug": "/products/copier",
+        "pageTitle": "Explore Our Copiers"
+    },
+    {
+        "id": "9",
+        "name": "Scanner",
+        "slug": "/products/scanner",
+        "pageTitle": "Explore Our Scanners"
+    },
+    {
+        "id": "10",
+        "name": "Laptop",
+        "slug": "/products/laptop",
+        "pageTitle": "Explore Our Laptops"
+    },
+    {
+        "id": "11",
+        "name": "Tablet",
+        "slug": "/products/tablet",
+        "pageTitle": "Explore Our Tablets"
+    },
+    {
+        "id": "12",
+        "name": "Desktop",
+        "slug": "/products/desktop",
+        "pageTitle": "Explore Our Desktops"
+    },
+    {
+        "id": "13",
+        "name": "Server",
+        "slug": "/products/server",
+        "pageTitle": "Explore Our Servers"
     }
 ]

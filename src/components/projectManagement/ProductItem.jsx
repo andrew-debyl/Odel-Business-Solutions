@@ -2,60 +2,48 @@ import React from "react";
 import Link from "next/link";
 import productData from "../../data/products.json";
 
-function ProductItem({productName}) {
+function ProductItem({ productName }) {
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  function getProductsByName(data, name) {
+    const formattedName = capitalizeFirstLetter(name);
+
+    const entry = data.find((item) => item.name === formattedName);
+
+    if (entry.name === formattedName) {
+      return entry.products;
+    }
+    return [];
+  }
+
+  const products = getProductsByName(productData, productName);
 
   return (
     <div className="row g-4 mb-50">
-      <div
-        className="col-lg-4 col-md-6 wow animate fadeInDown"
-        data-wow-delay="200ms"
-        data-wow-duration="1500ms"
-      >
-        <div className="product-card">
-          <div className="product-card-img">
-            <Link href="/product-details">
-              <img src="/assets/img/innerpage/product-img1.jpg" alt="" />
-              <div className="batch">
-                <span>-15%</span>
-              </div>
-            </Link>
-            <div className="cart-area">
-              <Link href="/cart" className="add-cart-btn">
-                <i className="bi bi-bag-check" /> Add To Cart
+      {products.map((product) => (
+        <div
+          className="col-lg-4 col-md-6 wow animate fadeInDown"
+          data-wow-delay="200ms"
+          data-wow-duration="1500ms"
+          key={product.id}
+        >
+          <div className="product-card">
+            <div className="product-card-img">
+              <Link href={`/products/${productName}/${product.id}`}>
+                <img src={product.img} alt="" />
               </Link>
             </div>
-          </div>
-          <div className="product-card-content">
-            <h6>
-              <Link href="/product-details">Air pod Pro Original</Link>
-            </h6>
-            <span>
-              $150.00 <del>$200.00</del>
-            </span>
-            <div className="rating">
-              <ul>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-                <li>
-                  <i className="bi bi-star-fill" />
-                </li>
-              </ul>
-              <span>(50)</span>
+            <div className="product-card-content">
+              <h6>
+                <Link href={`/products/${productName}/${product.id}`}>{product.name}</Link>
+              </h6>
             </div>
+            <span className="for-border" />
           </div>
-          <span className="for-border" />
         </div>
-      </div>
+      ))}
     </div>
   );
 }

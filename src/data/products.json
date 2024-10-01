@@ -7,13 +7,13 @@
         "id": "1",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       },
       {
         "id": "2",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       }
     ]
   },
@@ -23,15 +23,44 @@
     "products": [
       {
         "id": "1",
-        "name": "temp",
-        "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "name": "Ricoh MP C4504",
+        "subName": "A3 Color Laser Multifunction Copier",
+        "desc": "45ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays and Comes with Pre-Installed Postscript 3 Supplement",
+        "img": "/assets/img/products/c4504.png",
+        "features": [
+          "Standard Features: Copy, Print, Scan, Auto Duplex, and Network",
+          "Print Speed: Up to 45 pages per minute",
+          "Paper Size: Up to 11 Inches x 17 Inches / A3",
+          "Paper Input Capacity (std, max.): 1,200 sheets, 4,700 sheets with options"
+        ]
       },
       {
         "id": "2",
-        "name": "temp",
-        "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "name": "Ricoh MP C3004",
+        "subName": "A3/A4 Color Laser Multifunction Copier",
+        "desc": "30ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays, Stand, Comes with Pre-installed PostScript 3 Supplement",
+        "img": "/assets/img/products/c3004.png",
+        "features": [
+          "Standard Features: Copy, WIFI, Fax, Print, Scan, Auto Duplex, and Network",
+          "Print Speed: Up to 30 pages per minute",
+          "Paper Size: Up to 11\" x 17\" / A3",
+          "Comes with Built-In WIFI and 10.1\" wide smart operation panel",
+          "Comes with Pre-installed PostScript 3 Supplement and full Manual"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Ricoh MP C5504",
+        "subName": "Tabloid/Ledger-Size Color Laser Multifunction Copier",
+        "desc": "55ppm, Copy, Print, Scan, 2 Trays, Stand",
+        "img": "/assets/img/products/c5504.png",
+        "features": [
+          "Standard Features: Copy, Print, Scan, Auto Duplex, and Network",
+          "Print Speed: Up to 55 pages per minute",
+          "Paper Size: Up to 11\" x 17\" / A3",
+          "Paper Input Capacity (std, max.): 1,200 sheets, 4,700 sheets with options",
+          "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
+        ]
       }
     ]
   },
@@ -43,13 +72,13 @@
         "id": "1",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       },
       {
         "id": "2",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       }
     ]
   },
@@ -61,7 +90,7 @@
         "id": "1",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       }
     ]
   },
@@ -73,13 +102,13 @@
         "id": "1",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       },
       {
         "id": "2",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       }
     ]
   },
@@ -91,13 +120,13 @@
         "id": "1",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       },
       {
         "id": "2",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       }
     ]
   },
@@ -109,13 +138,13 @@
         "id": "1",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       },
       {
         "id": "2",
         "name": "temp",
         "desc": "temp desc",
-        "img": "/temp/temp.png"
+        "img": ""
       }
     ]
   }

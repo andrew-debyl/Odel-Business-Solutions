@@ -5,14 +5,12 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const Breadcrumb = () => {
-  const currentSlug = usePathname(); // Get the current route's slug
+  const currentSlug = usePathname().replace(/\/\d+$/, '');
 
-  // Filter breadcrumbData based on matching slugs
   const filteredBreadcrumbData = breadcrumbData.filter(
     (item) => item.slug === currentSlug
   );
 
-  // Render the breadcrumb only if there's a matching slug
   if (filteredBreadcrumbData.length === 0) {
     return (
         <div

@@ -3,12 +3,11 @@ import { useValue } from "@/hooks/ValueContext";
 import ProductItem from "./ProductItem";
 
 const Home3ProjectManagement = () => {
-  const { setActiveTab } = useValue();
-  const { activeTab } = useValue();
+  const { setActiveTab, activeTab } = useValue();
 
   useEffect(() => {
     const updateActiveTabFromHash = () => {
-      const hash = window.location.hash.substring(1) || "marketing-teams";
+      const hash = window.location.hash.substring(1) || "printer"; 
       setActiveTab(hash);
     };
 
@@ -19,13 +18,7 @@ const Home3ProjectManagement = () => {
     return () => {
       window.removeEventListener("hashchange", updateActiveTabFromHash);
     };
-  }, []);
-
-  useEffect(() => {
-    if (activeTab) {
-      window.history.replaceState(null, '', `#${activeTab}`);
-    }
-  }, [activeTab]);
+  }, [setActiveTab]);
 
   return (
     <>
@@ -75,7 +68,7 @@ const Home3ProjectManagement = () => {
                       id={`${tab}-tab`}
                       data-bs-toggle="tab"
                       data-bs-target={`#${tab}`}
-                      onClick={()=>setActiveTab(tab)}
+                      onClick={() => setActiveTab(tab)}
                     >
                       {tab
                         .replace(/-/g, " ")
@@ -105,7 +98,7 @@ const Home3ProjectManagement = () => {
                     role="tabpanel"
                     aria-labelledby={`${tab}-tab`}
                   >
-                    <ProductItem productName={activeTab}/>
+                    <ProductItem productName={activeTab} />
                   </div>
                 ))}
               </div>

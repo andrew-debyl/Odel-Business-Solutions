@@ -16376,6 +16376,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .product-card .product-card-img > a img {
   transition: all 0.5s ease-out;
+  padding: 46px;
 }
 .product-card .product-card-img > a .batch {
   position: absolute;
