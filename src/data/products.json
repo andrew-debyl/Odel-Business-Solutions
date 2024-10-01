@@ -28,10 +28,26 @@
         "desc": "45ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays and Comes with Pre-Installed Postscript 3 Supplement",
         "img": "/assets/img/products/c4504.png",
         "features": [
-          "Standard Features: Copy, Print, Scan, Auto Duplex, and Network",
-          "Print Speed: Up to 45 pages per minute",
-          "Paper Size: Up to 11 Inches x 17 Inches / A3",
-          "Paper Input Capacity (std, max.): 1,200 sheets, 4,700 sheets with options"
+          {
+            "id": "1",
+            "title": "Standard Features",
+            "content": "Copy, Print, Scan, Auto Duplex, and Network"
+          },
+          {
+            "id": "2",
+            "title": "Print Speed",
+            "content": "Up to 45 pages per minute"
+          },
+          {
+            "id": "3",
+            "title": "Paper Size",
+            "content": "Up to 11\" x 17\" / A3"
+          },
+          {
+            "id": "4",
+            "title": "Paper Input Capacity (std, max.)",
+            "content": "1,200 sheets, 4,700 sheets with options"
+          }
         ]
       },
       {
@@ -41,11 +57,31 @@
         "desc": "30ppm, Copy, Fax, Print, Scan, Auto Duplex, Network, WIFI, 4 Trays, Stand, Comes with Pre-installed PostScript 3 Supplement",
         "img": "/assets/img/products/c3004.png",
         "features": [
-          "Standard Features: Copy, WIFI, Fax, Print, Scan, Auto Duplex, and Network",
-          "Print Speed: Up to 30 pages per minute",
-          "Paper Size: Up to 11\" x 17\" / A3",
-          "Comes with Built-In WIFI and 10.1\" wide smart operation panel",
-          "Comes with Pre-installed PostScript 3 Supplement and full Manual"
+          {
+            "id": "1",
+            "title": "Standard Features",
+            "content": "Copy, WIFI, Fax, Print, Scan, Auto Duplex, and Network"
+          },
+          {
+            "id": "2",
+            "title": "Print Speed",
+            "content": "Up to 30 pages per minute"
+          },
+          {
+            "id": "3",
+            "title": "Paper Size",
+            "content": "Up to 11\" x 17\" / A3"
+          },
+          {
+            "id": "4",
+            "title": "Additional Features",
+            "content": "Comes with Built-In WIFI and 10.1\" wide smart operation panel"
+          },
+          {
+            "id": "5",
+            "title": "Additional Features",
+            "content": "Comes with Pre-installed PostScript 3 Supplement and full Manual"
+          }
         ]
       },
       {
@@ -55,11 +91,31 @@
         "desc": "55ppm, Copy, Print, Scan, 2 Trays, Stand",
         "img": "/assets/img/products/c5504.png",
         "features": [
-          "Standard Features: Copy, Print, Scan, Auto Duplex, and Network",
-          "Print Speed: Up to 55 pages per minute",
-          "Paper Size: Up to 11\" x 17\" / A3",
-          "Paper Input Capacity (std, max.): 1,200 sheets, 4,700 sheets with options",
-          "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
+          {
+            "id": "1",
+            "title": "Standard Features",
+            "content": "Copy, Print, Scan, Auto Duplex, and Network"
+          },
+          {
+            "id": "2",
+            "title": "Print Speed",
+            "content": "Up to 55 pages per minute"
+          },
+          {
+            "id": "3",
+            "title": "Paper Size",
+            "content": "Up to 11\" x 17\" / A3"
+          },
+          {
+            "id": "4",
+            "title": "Paper Input Capacity (std, max.)",
+            "content": "1,200 sheets, 4,700 sheets with options"
+          },
+          {
+            "id": "5",
+            "title": "Additional Features",
+            "content": "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
+          }
         ]
       }
     ]

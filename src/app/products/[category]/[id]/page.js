@@ -57,42 +57,14 @@ const ProductDetailsPage = () => {
                     <div className="addithonal-information">
                       <table className="table total-table2">
                         <tbody>
-                          <tr>
+                          {productData.features.map((item) => (
+                            <tr>
                             <td>
-                              <span>SKU</span>
+                              <span>{item.title}</span>
                             </td>
-                            <td>123ABC</td>
+                            <td>{item.content}</td>
                           </tr>
-                          <tr>
-                            <td>
-                              <span>Category</span>
-                            </td>
-                            <td>Equipment</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <span>Tags</span>
-                            </td>
-                            <td>Cream, Watch, Camera</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <span>Weight</span>
-                            </td>
-                            <td>20 gm</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <span>Dimensions</span>
-                            </td>
-                            <td>2 × 4 × 5 cm</td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <span>Brand</span>
-                            </td>
-                            <td>Revlon </td>
-                          </tr>
+                          ))}
                         </tbody>
                       </table>
                     </div>
