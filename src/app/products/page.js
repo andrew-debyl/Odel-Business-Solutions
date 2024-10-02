@@ -1,19 +1,11 @@
 "use client"
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
-import React, { useEffect } from "react";
+import React from "react";
 import Home3ProjectManagement from "@/components/projectManagement/Home3ProjectManagement";
 
 const ProductsPage = () => {
   useWow()
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 300); // Adjust the delay time (in milliseconds) as needed
-  
-    return () => clearTimeout(timer); // Clean up the timer on unmount
-  }, []);
 
   return (
     <MainLayout>

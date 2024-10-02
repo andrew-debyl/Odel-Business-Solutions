@@ -80,10 +80,7 @@ const Header2 = () => {
     setActiveTab(navId);
   };
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [activeTab]);
-
+ 
   return (
     <>
       <header
