@@ -59,43 +59,43 @@
       {
         "id": "1",
         "label": "Printer",
-        "link": "/products#printer",
+        "link": "/products",
         "navId": "printer"
       },
       {
         "id": "2",
         "label": "Copier",
-        "link": "/products#copier",
+        "link": "/products",
         "navId": "copier"      
       },
       {
         "id": "3",
         "label": "Scanner",
-        "link": "/products#scanner",
+        "link": "/products",
         "navId": "scanner"
       },
       {
         "id": "4",
         "label": "Laptop",
-        "link": "/products#laptop",
+        "link": "/products",
         "navId": "laptop"
       },
       {
         "id": "5",
         "label": "Tablet",
-        "link": "/products#tablet",
+        "link": "/products",
         "navId": "tablet"
       },
       {
         "id": "6",
         "label": "Desktop",
-        "link": "/products#desktop",
+        "link": "/products",
         "navId": "desktop"
       },
       {
         "id": "7",
         "label": "Server",
-        "link": "/products#server",
+        "link": "/products",
         "navId": "server"
       }
     ]

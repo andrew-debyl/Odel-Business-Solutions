@@ -127,7 +127,7 @@ const Header2 = () => {
                         {subMenu.map((subItem, subIndex) => (
                           <li key={subIndex}>
                             <Link legacyBehavior href={subItem.link}>
-                              <a onClick={() => handleClick(subItem.navId)}>
+                              <a >
                                 {subItem.label}
                               </a>
                             </Link>

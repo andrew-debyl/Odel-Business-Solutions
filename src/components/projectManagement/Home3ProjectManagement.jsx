@@ -5,7 +5,7 @@ import ProductItem from "./ProductItem";
 const Home3ProjectManagement = () => {
   const { setActiveTab, activeTab } = useValue();
 
-  useEffect(() => {
+  /*useEffect(() => {
     const updateActiveTabFromHash = () => {
       const hash = window.location.hash.substring(1) || "printer"; 
       setActiveTab(hash);
@@ -18,7 +18,7 @@ const Home3ProjectManagement = () => {
     return () => {
       window.removeEventListener("hashchange", updateActiveTabFromHash);
     };
-  }, [setActiveTab]);
+  }, [setActiveTab]);*/
 
   return (
     <>
@@ -68,7 +68,7 @@ const Home3ProjectManagement = () => {
                       id={`${tab}-tab`}
                       data-bs-toggle="tab"
                       data-bs-target={`#${tab}`}
-                      onClick={() => setActiveTab(tab)}
+                      
                     >
                       {tab
                         .replace(/-/g, " ")
