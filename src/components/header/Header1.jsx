@@ -73,13 +73,6 @@ const Header1 = () => {
     dispatch({ type: "TOGGLE_MENU", menu });
   };
 
-  const toggleRightSidebar = () => {
-    dispatch({ type: "TOGGLE_RIGHTSIDEBAR" });
-  };
-  const toggleSubMenu = (subMenu) => {
-    dispatch({ type: "TOGGLE_SUB_MENU", subMenu });
-  };
-
   return (
     <>
       <ScrollProgress />

@@ -1,11 +1,15 @@
 "use client"
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
-import React from "react";
+import React, { useEffect } from "react";
 import Home3ProjectManagement from "@/components/projectManagement/Home3ProjectManagement";
 
 const ProductsPage = () => {
   useWow()
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <MainLayout>
