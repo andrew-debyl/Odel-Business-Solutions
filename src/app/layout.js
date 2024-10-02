@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="/public/assets/img/sm-logo.svg"
+          
           type="image/x-icon"
           sizes="24x24"
         />

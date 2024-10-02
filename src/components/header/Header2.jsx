@@ -76,8 +76,11 @@ const Header2 = () => {
   const { setActiveTab } = useValue();
   const { activeTab } = useValue();
 
-  const handleClick = (navId) => {
+  const handleClick = (navId, link) => {
     setActiveTab(navId);
+    window.scrollTo(0, 0); // Scroll to top
+    // Navigate to the link
+    window.location.href = link;
   };
 
  
@@ -129,7 +132,7 @@ const Header2 = () => {
                         {subMenu.map((subItem, subIndex) => (
                           <li key={subIndex}>
                             <Link legacyBehavior href={subItem.link}>
-                              <a onClick={() => handleClick(subItem.navId)}>
+                              <a onClick={() => handleClick(subItem.navId,subItem.link)}>
                                 {subItem.label}
                               </a>
                             </Link>
