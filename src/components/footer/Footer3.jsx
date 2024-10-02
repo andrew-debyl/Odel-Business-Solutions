@@ -1,7 +1,18 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import { useValue } from "@/hooks/ValueContext";
 
 const Footer3 = () => {
+  const { setActiveTab } = useValue();
+  const { activeTab } = useValue();
+
+  const handleClick = (navId) => {
+    setActiveTab(navId);
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeTab]);
   return (
     <>
       <footer className="footer-section style-3">
@@ -32,19 +43,16 @@ const Footer3 = () => {
                   <div className="menu-container">
                     <ul className="widget-list">
                       <li>
-                        <a href="#">Support center</a>
+                        <Link href="/products#printer" onClick={() => handleClick("printer")}>Printer</Link>
                       </li>
                       <li>
-                        <a href="#">Documentation</a>
+                        <Link href="/products#copier" onClick={() => handleClick("copier")}>Copier</Link>
                       </li>
                       <li>
-                        <a href="#">Community</a>
+                        <Link href="/products#scanner" onClick={() => handleClick("scanner")}>Scanner</Link>
                       </li>
                       <li>
-                        <Link href="/features">Features</Link>
-                      </li>
-                      <li>
-                        <a href="#">Password protecte</a>
+                        <Link href="/products#printer" onClick={() => handleClick("printer")}>More...</Link>
                       </li>
                     </ul>
                   </div>

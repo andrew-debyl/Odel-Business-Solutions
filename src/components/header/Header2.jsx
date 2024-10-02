@@ -146,13 +146,22 @@ const Header2 = () => {
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
-            <div className="sidebar-and-btn">
-              <a
-                href="tel:+14166276564"
-                className="primary-btn4 d-xl-flex d-none"
-              >
-                +1 416-627-6564
-              </a>
+            <div className="right-sidebar-and-hotline-area">
+              <div className="hotline-area d-xl-flex d-none">
+                <div className="icon">
+                  <img src="/assets/icons/phone.png" alt=""></img>
+                </div>
+                <div className="content">
+                  
+                  <h6>
+                    <Link href="tel:+14166276564">+1 416-627-6564</Link>
+                  </h6>
+                </div>
+              </div>
+              
+              <div className="sidebar-button mobile-menu-btn d-none">
+                <span />
+              </div>
             </div>
           </div>
         </div>

@@ -98,7 +98,7 @@ const Home3ProjectManagement = () => {
                     role="tabpanel"
                     aria-labelledby={`${tab}-tab`}
                   >
-                    <ProductItem productName={activeTab} />
+                    <ProductItem productName={tab} />
                   </div>
                 ))}
               </div>

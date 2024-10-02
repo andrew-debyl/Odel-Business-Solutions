@@ -11,15 +11,13 @@ const Home3countdown = () => {
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-            <span>
-              Global Product
-            </span>
-            <h2>Elevate our Experience</h2>
+            <span>temp</span>
+            <h2>temp</h2>
             <p>
-              Welcome to Zenfy, where digital innovation meets strategic
-              excellence as a dynamic force in the realm of digital marketing,
-              we are dedicated tourat propelling businesses into the spotlight
-              of online success.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              unde quasi libero soluta voluptate. Vitae perferendis accusantium
+              repellendus, quibusdam explicabo, quisquam delectus animi
+              molestias quas quaerat, molestiae velit! Maxime, eius?
             </p>
           </div>
           <div className="row g-lg-4 gy-5">
@@ -48,10 +46,7 @@ const Home3countdown = () => {
                     </h5>
                     <span>M+</span>
                   </div>
-                  <p>
-                    Users used our saas solution with any question we update
-                    evryday.
-                  </p>
+                  <p>Lorem ipsum dolor sit, amet consectetur</p>
                 </div>
               </div>
             </div>
@@ -82,10 +77,7 @@ const Home3countdown = () => {
                     </h5>
                     <span>M+</span>
                   </div>
-                  <p>
-                    Positive reviews we are always provid great solutions and
-                    application.
-                  </p>
+                  <p>Lorem ipsum dolor sit, amet consectetur</p>
                 </div>
               </div>
             </div>
@@ -116,10 +108,7 @@ const Home3countdown = () => {
                     </h5>
                     <span>%</span>
                   </div>
-                  <p>
-                    Powerful customization, Of our saas based software we work
-                    this.
-                  </p>
+                  <p>Lorem ipsum dolor sit, amet consectetur</p>
                 </div>
               </div>
             </div>
@@ -150,9 +139,7 @@ const Home3countdown = () => {
                     </h5>
                     <span>M+</span>
                   </div>
-                  <p>
-                    Registered attendees our software is a complete solutions.
-                  </p>
+                  <p>Lorem ipsum dolor sit, amet consectetur</p>
                 </div>
               </div>
             </div>

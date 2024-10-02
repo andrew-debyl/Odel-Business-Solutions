@@ -84,6 +84,7 @@ const Home3Feature = () => {
                 <div className="feature-img">
                   <img
                     src="assets/img/home3/home3-feature-slider-img1.png"
+                    className="home3feature--img"
                     alt=""
                   />
                 </div>

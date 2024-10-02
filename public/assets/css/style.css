@@ -2316,7 +2316,7 @@ header.style-2 .nav-right .right-sidebar-and-hotline-area .hotline-area {
   gap: 8px;
   border-radius: 5px 0 0 5px;
   border: 1px solid rgba(var(--title-color-opc), 0.05);
-  background: rgba(var(--primary-color1-opc), 0.05);
+  background: #1762ac;
   padding: 5px 25px 5px 15px;
   border-right: unset;
 }
@@ -2349,13 +2349,13 @@ header.style-2 .nav-right .right-sidebar-and-hotline-area .hotline-area .content
 header.style-2 .nav-right .right-sidebar-and-hotline-area .hotline-area .content h6 a {
   font-family: var(--font-hankenGrotesk);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
-  color: var(--title-color);
+  color: white;
   transition: 0.5s;
 }
 header.style-2 .nav-right .right-sidebar-and-hotline-area .hotline-area .content h6 a:hover {
-  color: var(--primary-color1);
+  color: black;
 }
 header.style-2 .nav-right .right-sidebar-and-hotline-area .right-sidebar-button {
   background-color: var(--black-color2);
@@ -6467,7 +6467,6 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
@@ -9307,6 +9306,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 /*=====================================
   28.Home3 Process section
 ========================================*/
+.home3feature--img{
+  border-radius: 5px;
+}
 .home3-process-section .process-card {
   border-radius: 7px;
   background: #FFEBEB;
@@ -9931,6 +9933,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 /*=====================================
   32.Home3 Feature section
 ========================================*/
+.progressBarContainer{
+  padding-left: 30px;
+}
 .home3-feature-section .feature-content-wrap .progressBarContainer div span.progressBar {
   width: 100%;
   height: 1px;
@@ -14623,20 +14628,11 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   position: relative;
   z-index: 1;
 }
-.home5-why-choose-section .why-choose-img img {
-  -webkit-clip-path: polygon(0 0, 98% 2%, 98% 98%, 0% 100%);
-          clip-path: polygon(0 0, 98% 2%, 98% 98%, 0% 100%);
+
+.home5-why-choose-section .why-choose-img img{
+  border-radius: 5px;
 }
-.home5-why-choose-section .why-choose-img:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  background-color: rgba(var(--primary-color1-opc), 0.2);
-}
+
 .home5-why-choose-section .why-choose-content > p {
   color: var(--text-color);
   font-family: Inter;
