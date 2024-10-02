@@ -8,7 +8,11 @@ const ProductsPage = () => {
   useWow()
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 300); // Adjust the delay time (in milliseconds) as needed
+  
+    return () => clearTimeout(timer); // Clean up the timer on unmount
   }, []);
 
   return (
