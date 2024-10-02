@@ -10,7 +10,6 @@ const initialState = {
   isRightSidebar: false,
   isLang: false,
 };
-import { useValue } from "@/hooks/ValueContext";
 
 function reducer(state, action) {
   switch (action.type) {
@@ -73,12 +72,6 @@ const Header2 = () => {
     dispatch({ type: "TOGGLE_MENU", menu });
   };
 
-  const { setActiveTab } = useValue();
-
-  const handleClick = (navId) => {
-    setActiveTab(navId);
-  };
-
   return (
     <>
       <header
@@ -127,9 +120,7 @@ const Header2 = () => {
                         {subMenu.map((subItem, subIndex) => (
                           <li key={subIndex}>
                             <Link legacyBehavior href={subItem.link}>
-                              <a >
-                                {subItem.label}
-                              </a>
+                              <a>{subItem.label}</a>
                             </Link>
                           </li>
                         ))}
@@ -147,13 +138,12 @@ const Header2 = () => {
                   <img src="/assets/icons/phone.png" alt=""></img>
                 </div>
                 <div className="content">
-                  
                   <h6>
                     <Link href="tel:+14166276564">+1 416-627-6564</Link>
                   </h6>
                 </div>
               </div>
-              
+
               <div className="sidebar-button mobile-menu-btn d-none">
                 <span />
               </div>

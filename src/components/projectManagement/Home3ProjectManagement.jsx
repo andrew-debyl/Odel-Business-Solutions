@@ -1,24 +1,7 @@
-import React, { useEffect } from "react";
-import { useValue } from "@/hooks/ValueContext";
+import React from "react";
 import ProductItem from "./ProductItem";
 
 const Home3ProjectManagement = () => {
-  const { setActiveTab, activeTab } = useValue();
-
-  /*useEffect(() => {
-    const updateActiveTabFromHash = () => {
-      const hash = window.location.hash.substring(1) || "printer"; 
-      setActiveTab(hash);
-    };
-
-    updateActiveTabFromHash();
-
-    window.addEventListener("hashchange", updateActiveTabFromHash);
-
-    return () => {
-      window.removeEventListener("hashchange", updateActiveTabFromHash);
-    };
-  }, [setActiveTab]);*/
 
   return (
     <>
@@ -59,12 +42,12 @@ const Home3ProjectManagement = () => {
                     <button
                       key={tab}
                       className={`nav-link ${
-                        activeTab === tab ? "active" : ""
+                        "printer" === tab ? "active" : ""
                       }`}
                       type="button"
                       role="tab"
                       aria-controls={tab}
-                      aria-selected={activeTab === tab}
+                      aria-selected={"printer" === tab}
                       id={`${tab}-tab`}
                       data-bs-toggle="tab"
                       data-bs-target={`#${tab}`}
@@ -92,7 +75,7 @@ const Home3ProjectManagement = () => {
                   <div
                     key={tab}
                     className={`tab-pane fade ${
-                      activeTab === tab ? "show active" : ""
+                      "printer" === tab ? "show active" : ""
                     }`}
                     id={tab}
                     role="tabpanel"
