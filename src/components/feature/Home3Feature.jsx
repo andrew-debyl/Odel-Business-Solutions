@@ -17,7 +17,7 @@ const Home3Feature = () => {
                   <h2>IT Solutions for Modern Businesses</h2>
                 </div>
                 <div className="feature-list-wrap">
-                  <div className="progressBarContainer">
+                  <div>
                     <div
                       className="feature-and-progress wow animate fadeInDown"
                       data-wow-delay="400ms"
