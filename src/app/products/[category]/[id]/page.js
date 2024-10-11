@@ -7,6 +7,10 @@ import data from "@/data/products.json";
 const ProductDetailsPage = () => {
   const { category, id } = useParams();
 
+  if (!category || !id) {
+    return <div></div>;
+  }
+
   const getProductData = (categoryName, productId) => {
     const category = data.find(
       (cat) => cat.name.toLowerCase() === categoryName.toLowerCase()

@@ -9308,6 +9308,13 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 ========================================*/
 .home3feature--img{
   border-radius: 5px;
+  filter: brightness(90%);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-details-faq-img img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 .home3-process-section .process-card {
   border-radius: 7px;
@@ -14631,6 +14638,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 
 .home5-why-choose-section .why-choose-img img{
   border-radius: 5px;
+  filter: brightness(85%);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .home5-why-choose-section .why-choose-content > p {
