@@ -3286,8 +3286,8 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .sidebar-menu .sidebar-menu-top-area .sidebar-menu-close:hover {
-  background-color: #FF4820;
-  border-color: #FF4820;
+  background-color: var(--primary-color1);
+  border-color: var(--primary-color1);
 }
 .sidebar-menu .sidebar-menu-top-area .sidebar-menu-close:hover svg {
   fill: var(--white-color);
@@ -7111,6 +7111,17 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   transition: 0.5s;
   height: 430px;
 }
+@media (max-width: 1199px) {
+  .home2-about-section .about-feature-card {
+    height: 480px;
+  }
+}
+@media (max-width: 767px) {
+  .home2-about-section .about-feature-card {
+    height: 400px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .home2-about-section .about-feature-card {
     padding: 30px 20px;
@@ -7194,13 +7205,21 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (max-width: 1399px) {
   .home2-service-section .sevices-wrap .single-services {
-    grid-template-columns: 13% 30% 37% 20%;
+    grid-template-columns: 10% 25% 60%;
+  }
+}
+@media (max-width: 991px) {
+  .home2-service-section .sevices-wrap .single-services {
+    grid-template-columns: 15% 25% 45%;
   }
 }
 @media (max-width: 767px) {
   .home2-service-section .sevices-wrap .single-services {
     padding: 20px;
     display: block;
+  }
+  .home2-service-section .sevices-wrap .single-services .icon img {
+    display: none;
   }
 }
 .home2-service-section .sevices-wrap .single-services:last-child {
@@ -9315,7 +9334,15 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .service-details-faq-img img {
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  filter: brightness(97%);
 }
+
+@media (max-width: 991px) {
+  .service-details-faq-img img {
+    display: none;
+  }
+}
+
 .home3-process-section .process-card {
   border-radius: 7px;
   background: #FFEBEB;
@@ -14639,7 +14666,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home5-why-choose-section .why-choose-img img{
   border-radius: 5px;
   filter: brightness(85%);
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .home5-why-choose-section .why-choose-content > p {

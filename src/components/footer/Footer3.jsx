@@ -32,16 +32,13 @@ const Footer3 = () => {
                   <div className="menu-container">
                     <ul className="widget-list">
                       <li>
-                        <Link href="/products">Printer</Link>
+                        <Link href="/networking">Networking</Link>
                       </li>
                       <li>
-                        <Link href="/products">Copier</Link>
+                        <Link href="/it-services">IT Services</Link>
                       </li>
                       <li>
-                        <Link href="/products">Scanner</Link>
-                      </li>
-                      <li>
-                        <Link href="/products">More...</Link>
+                        <Link href="/products">Products</Link>
                       </li>
                     </ul>
                   </div>
@@ -54,11 +51,8 @@ const Footer3 = () => {
                   </div>
                   <div className="menu-container">
                     <ul className="widget-list">
-                      <li>
-                        <Link href="/networking">Networking</Link>
-                      </li>
-                      <li>
-                        <Link href="/it-services">IT Services</Link>
+                    <li>
+                        <Link href="/">Home</Link>
                       </li>
                       <li>
                         <Link href="/about">About us</Link>

@@ -53,52 +53,8 @@
   {
     "id": "3",
     "label": "Products",
-    "link": "",
-    "icon": true,
-    "subMenu": [
-      {
-        "id": "1",
-        "label": "Printer",
-        "link": "/products",
-        "navId": "printer"
-      },
-      {
-        "id": "2",
-        "label": "Copier",
-        "link": "/products",
-        "navId": "copier"      
-      },
-      {
-        "id": "3",
-        "label": "Scanner",
-        "link": "/products",
-        "navId": "scanner"
-      },
-      {
-        "id": "4",
-        "label": "Laptop",
-        "link": "/products",
-        "navId": "laptop"
-      },
-      {
-        "id": "5",
-        "label": "Tablet",
-        "link": "/products",
-        "navId": "tablet"
-      },
-      {
-        "id": "6",
-        "label": "Desktop",
-        "link": "/products",
-        "navId": "desktop"
-      },
-      {
-        "id": "7",
-        "label": "Server",
-        "link": "/products",
-        "navId": "server"
-      }
-    ]
+    "link": "/products",
+    "icon": false
   },
   {
     "id": "4",
