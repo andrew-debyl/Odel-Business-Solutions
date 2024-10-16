@@ -35,9 +35,6 @@ const Footer3 = () => {
                         <Link href="/networking">Networking</Link>
                       </li>
                       <li>
-                        <Link href="/it-services">IT Services</Link>
-                      </li>
-                      <li>
                         <Link href="/products">Products</Link>
                       </li>
                     </ul>
@@ -51,11 +48,8 @@ const Footer3 = () => {
                   </div>
                   <div className="menu-container">
                     <ul className="widget-list">
-                    <li>
-                        <Link href="/">Home</Link>
-                      </li>
                       <li>
-                        <Link href="/about">About us</Link>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
                         <Link href="/contact">Contact Us</Link>

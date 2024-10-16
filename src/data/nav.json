@@ -42,11 +42,6 @@
         "id": "1",
         "label": "Networking",
         "link": "/networking"
-      },
-      {
-        "id": "2",
-        "label": "IT Services",
-        "link": "/it-services"
       }
     ]
   },

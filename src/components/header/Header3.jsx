@@ -135,9 +135,6 @@ const Header2 = () => {
                       <li>
                         <Link href="/networking">Networking</Link>
                       </li>
-                      <li>
-                        <Link href="/it-services">IT Services</Link>
-                      </li>
                     </ul>
                   </li>
                   <li>
