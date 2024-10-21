@@ -11,7 +11,6 @@ import Home5Portfolio from "@/components/portfolio/Home5Portfolio";
 import Home5Service from "@/components/service/Home5Service";
 import Home5Team from "@/components/team/Home5Team";
 import Home5Testimonial from "@/components/testimonial/Home5Testimonial";
-import Home5whyChoose from "@/components/why-choose/Home5whyChoose";
 import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
 import useWow from "@/hooks/useWow";
 
@@ -29,7 +28,6 @@ const ItSolutionpage = () => {
       <Home5Portfolio />
       <Home5Testimonial />
       <Home5Workprocess />
-      <Home5whyChoose />
       <Home5Team />
       <Home5Blog />
       <Home5Contact />
