@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useReducer, useRef } from "react";
 import navData from "../../data/nav.json";
 import ScrollProgress from "../common/ScrollProgress";
+import Image from "next/image";
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -86,10 +87,12 @@ const Header1 = () => {
           <div className="container d-flex align-items-center justify-content-between">
             <div className="sidebar-menu-logo">
               <Link href="/" className="logo-dark">
-                <img
+                <Image
                   alt="image"
                   className="img-fluid"
                   src="/assets/img/logo-odel.png"
+                  width={196}
+                  height={60}
                 />
               </Link>
             </div>
@@ -225,10 +228,12 @@ const Header1 = () => {
         <div className="container d-flex flex-nowrap align-items-center justify-content-between">
           <div className="company-logo">
             <Link href="/" className="logo-dark">
-              <img
+              <Image
                 alt="image"
                 className="img-fluid"
                 src="/assets/img/logo-odel.png"
+                height={60}
+                width={196}
               />
             </Link>
           </div>

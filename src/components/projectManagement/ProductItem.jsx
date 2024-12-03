@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import productData from "../../data/products.json";
+import Image from "next/image";
 
 function ProductItem({ productName }) {
   function capitalizeFirstLetter(string) {
@@ -32,12 +33,14 @@ function ProductItem({ productName }) {
           <div className="product-card">
             <div className="product-card-img">
               <Link href={`/products/${productName}/${product.id}`}>
-                <img src={product.img} alt="" />
+                <Image src={product.img} alt="" width={404} height={418} />
               </Link>
             </div>
             <div className="product-card-content">
               <h6>
-                <Link href={`/products/${productName}/${product.id}`}>{product.name}</Link>
+                <Link href={`/products/${productName}/${product.id}`}>
+                  {product.name}
+                </Link>
               </h6>
             </div>
             <span className="for-border" />

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useReducer, useRef } from "react";
 import navData from "../../data/nav.json";
+import Image from "next/image";
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -86,10 +87,12 @@ const Header2 = () => {
           <div className="container d-flex align-items-center justify-content-between">
             <div className="sidebar-menu-logo">
               <Link href="/" className="logo-dark">
-                <img
+                <Image
                   alt="image"
                   className="img-fluid"
                   src="/assets/img/logo-odel.png"
+                  width={196}
+                  height={60}
                 />
               </Link>
             </div>
@@ -225,10 +228,12 @@ const Header2 = () => {
         <div className="container d-flex flex-nowrap align-items-center justify-content-between">
           <div className="company-logo">
             <Link href="/" className="logo-dark">
-              <img
+              <Image
                 alt="image"
                 className="img-fluid"
                 src="/assets/img/logo-odel-dark.png"
+                width={196}
+                height={60}
               />
             </Link>
           </div>
@@ -294,7 +299,12 @@ const Header2 = () => {
                 <div className="right-sidebar-and-hotline-area">
                   <div className="hotline-area d-xl-flex d-none">
                     <div className="icon">
-                      <img src="/assets/icons/phone.png" alt=""></img>
+                      <Image
+                        src="/assets/icons/phone.png"
+                        alt=""
+                        width={24}
+                        height={24}
+                      />
                     </div>
                     <div className="content">
                       <h6>

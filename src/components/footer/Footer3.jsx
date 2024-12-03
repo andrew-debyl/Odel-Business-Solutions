@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -12,7 +13,7 @@ const Footer3 = () => {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link href="/">
-                      <img src="/assets/img/logo-odel-dark.png" alt="" />
+                      <Image src="/assets/img/logo-odel-dark.png" alt="" width={196} height={60}/>
                     </Link>
                   </div>
                   <div className="content">
@@ -107,7 +108,7 @@ const Footer3 = () => {
             </div>
             <div className="hotline-area">
               <div className="icon">
-                <img src="/assets/icons/email.png" alt=""></img>
+                <Image src="/assets/icons/email.png" alt="" height={26} width={40}/>
               </div>
               <div className="content">
                 <span>Email</span>
