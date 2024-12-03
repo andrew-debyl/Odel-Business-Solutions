@@ -32,7 +32,7 @@ const Networking = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="why-choose-img">
-                  <img src="assets/img/updating-ai-systems.jpg" alt="" />
+                  <img src="/assets/img/updating-ai-systems.jpg" alt="" />
                 </div>
               </div>
               <div className="col-lg-7 mt-60">
@@ -90,7 +90,7 @@ const Networking = () => {
               <div className="sevices-wrap">
                 <div className="single-services">
                   <div className="icon">
-                    <img src="assets/icons/wanandlan.png" alt="" />
+                    <img src="/assets/icons/wanandlan.png" alt="" />
                   </div>
                   <h5>
                     <div>WAN & LAN Services</div>
@@ -109,7 +109,7 @@ const Networking = () => {
                 </div>
                 <div className="single-services">
                   <div className="icon">
-                    <img src="assets/icons/isp.png" alt="" />
+                    <img src="/assets/icons/isp.png" alt="" />
                   </div>
                   <h5>
                     <div>ISP Services</div>
@@ -128,7 +128,7 @@ const Networking = () => {
                 </div>
                 <div className="single-services">
                   <div className="icon">
-                    <img src="assets/icons/wireless.png" alt="" />
+                    <img src="/assets/icons/wireless.png" alt="" />
                   </div>
                   <h5>
                     <div>Wireless Solutions</div>
@@ -146,7 +146,7 @@ const Networking = () => {
                 </div>
                 <div className="single-services">
                   <div className="icon">
-                    <img src="assets/icons/networkservices.png" alt="" />
+                    <img src="/assets/icons/networkservices.png" alt="" />
                   </div>
                   <h5>
                     <div>Managed Network Services</div>
@@ -163,7 +163,7 @@ const Networking = () => {
                 </div>
                 <div className="single-services">
                   <div className="icon">
-                    <img src="assets/icons/proffservices.png" alt="" />
+                    <img src="/assets/icons/proffservices.png" alt="" />
                   </div>
                   <h5>
                     <div>Professional Services</div>

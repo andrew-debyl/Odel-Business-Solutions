@@ -62,12 +62,12 @@ const ProductDetailsPage = () => {
                       <table className="table total-table2">
                         <tbody>
                           {productData.features.map((item) => (
-                            <tr>
-                            <td>
-                              <span>{item.title}</span>
-                            </td>
-                            <td>{item.content}</td>
-                          </tr>
+                            <tr key={item.id}>
+                              <td>
+                                <span>{item.title}</span>
+                              </td>
+                              <td>{item.content}</td>
+                            </tr>
                           ))}
                         </tbody>
                       </table>

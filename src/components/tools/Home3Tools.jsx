@@ -31,7 +31,7 @@ const Home3Tools = () => {
               data-wow-duration="1500ms"
             >
               <div className="tools-card">
-                <img src="assets/img/home3/icon/sharp.png" alt="" />
+                <img src="/assets/img/home3/icon/sharp.png" alt="" />
               </div>
             </div>
             <div
@@ -40,7 +40,7 @@ const Home3Tools = () => {
               data-wow-duration="1500ms"
             >
               <div className="tools-card">
-                <img src="assets/img/home3/icon/dell.png" alt="" />
+                <img src="/assets/img/home3/icon/dell.png" alt="" />
               </div>
             </div>
             <div
@@ -49,7 +49,7 @@ const Home3Tools = () => {
               data-wow-duration="1500ms"
             >
               <div className="tools-card">
-                <img src="assets/img/home3/icon/ricoh.png" alt="" />
+                <img src="/assets/img/home3/icon/ricoh.png" alt="" />
               </div>
             </div>
             <div
@@ -58,7 +58,7 @@ const Home3Tools = () => {
               data-wow-duration="1500ms"
             >
               <div className="tools-card">
-                <img src="assets/img/home3/icon/konica.png" alt="" />
+                <img src="/assets/img/home3/icon/konica.png" alt="" />
               </div>
             </div>
             <div
@@ -67,7 +67,7 @@ const Home3Tools = () => {
               data-wow-duration="1500ms"
             >
               <div className="tools-card">
-                <img src="assets/img/home3/icon/toshiba.png" alt="" />
+                <img src="/assets/img/home3/icon/toshiba.png" alt="" />
               </div>
             </div>
             <div
@@ -76,7 +76,7 @@ const Home3Tools = () => {
               data-wow-duration="1500ms"
             >
               <div className="tools-card">
-                <img src="assets/img/home3/icon/kyocera.png" alt="" />
+                <img src="/assets/img/home3/icon/kyocera.png" alt="" />
               </div>
             </div>
           </div>

@@ -89,7 +89,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-odel.png"
+                  src="/assets/img/logo-odel.png"
                 />
               </Link>
             </div>
@@ -228,7 +228,7 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo-odel.png"
+                src="/assets/img/logo-odel.png"
               />
             </Link>
           </div>
