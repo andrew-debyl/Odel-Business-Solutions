@@ -7,7 +7,7 @@ const Footer3 = () => {
       <footer className="footer-section style-3">
         <div className="container">
           <div className="footer-top">
-            <div className="row g-lg-4 gy-5 justify-content-center">
+            <div className="row g-lg-4 gy-5 justify-content-center align-items-baseline">
               <div className="col-lg-4 col-md-8 col-sm-6">
                 <div className="footer-widget">
                   <div className="footer-logo">

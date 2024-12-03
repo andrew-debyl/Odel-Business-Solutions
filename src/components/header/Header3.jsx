@@ -184,7 +184,7 @@ const Header2 = () => {
                         </svg>
                       </div>
                       <div className="contact">
-                        <span>Email Now</span>
+                        <span>Email</span>
                         <h6>
                           <a href="mailto:sales@odelbusinesssolutions.com">
                             sales@odelbusinesssolutions.com
