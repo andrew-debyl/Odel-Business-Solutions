@@ -16,7 +16,7 @@ const Breadcrumb = () => {
         <div
         className="breadcrumb-section"
         style={{
-          backgroundImage: "url(/assets/img/innerpage/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
+          backgroundImage: "url(/assets/img/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
         }}
       >
         <div className="container">
@@ -49,7 +49,7 @@ const Breadcrumb = () => {
         className="breadcrumb-section"
         style={{
           backgroundImage:
-            "url(/assets/img/innerpage/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
+            "url(/assets/img/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
         }}
       >
         <div className="container">

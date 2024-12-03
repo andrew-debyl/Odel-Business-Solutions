@@ -5068,7 +5068,7 @@ header.style-2 .main-menu > ul li.menu-item-has-children > i {
   40.Home4 Experience section
 ========================================*/
 .home4-experience-section {
-  background-image: url(../img/home4/home4-experience-bg.png), linear-gradient(180deg, #121212 0%, #121212 100%);
+  background-image: url(../img/home4-experience-bg.png), linear-gradient(180deg, #121212 0%, #121212 100%);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;

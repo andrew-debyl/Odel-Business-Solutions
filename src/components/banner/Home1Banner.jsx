@@ -34,7 +34,7 @@ const Home1Banner = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <img src="assets/img/hometemp.png" alt="" className="banner--img"/>
+              <img src="assets/img/globe.png" alt="" className="banner--img"/>
             </div>
           </div>
         </div>
