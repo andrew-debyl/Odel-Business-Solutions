@@ -11,13 +11,14 @@ const Home3countdown = () => {
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-            <span>temp</span>
-            <h2>temp</h2>
+            <span>ODEL Business Solutions</span>
+            <h2>A Partnership Beyond Technology</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-              unde quasi libero soluta voluptate. Vitae perferendis accusantium
-              repellendus, quibusdam explicabo, quisquam delectus animi
-              molestias quas quaerat, molestiae velit! Maxime, eius?
+              At Odel Business Solutions, we believe in fostering long-term
+              relationships with our clients. Your feedback, success stories,
+              and evolving needs inspire us to improve and expand. We invite you
+              to experience our dedication to excellence and commitment to
+              driving success.
             </p>
           </div>
           <div className="row g-lg-4 gy-5">

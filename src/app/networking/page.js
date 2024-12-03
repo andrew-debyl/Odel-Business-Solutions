@@ -32,7 +32,7 @@ const Networking = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="why-choose-img">
-                  <img src="assets/img/site/abstract-shapes.jpg" alt="" />
+                  <img src="assets/img/site/updating-ai-systems.jpg" alt="" />
                 </div>
               </div>
               <div className="col-lg-7 mt-60">

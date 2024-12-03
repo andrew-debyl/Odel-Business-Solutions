@@ -3,34 +3,7 @@
     "id": "1",
     "label": "Home",
     "link": "/",
-    "icon": true,
-    "subMenu": [
-      {
-        "id": "1",
-        "label": "Startup Agency",
-        "link": "/"
-      },
-      {
-        "id": "2",
-        "label": "Digital Marketing Agency",
-        "link": "/digital-marketing"
-      },
-      {
-        "id": "3",
-        "label": "Saas Product",
-        "link": "/saas"
-      },
-      {
-        "id": "4",
-        "label": "Creative Agency",
-        "link": "/creative-agency"
-      },
-      {
-        "id": "5",
-        "label": "It Solution",
-        "link": "/it-solution"
-      }
-    ]
+    "icon": false
   },
   {
     "id": "2",

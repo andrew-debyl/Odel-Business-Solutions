@@ -131,6 +131,108 @@
             "content": "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
           }
         ]
+      },
+      {
+        "id": "4",
+        "name": "Ricoh IM C4500",
+        "subName": "Color Laser Multifunction Printer",
+        "desc": "45ppm, Copy, Print, Scan, Auto Duplex, 2 Trays, Color",
+        "img": "/assets/img/products/c4500.png",
+        "features": [
+          {
+            "id": "1",
+            "title": "Standard Features",
+            "content": "Print, Copy, Scan, Fax, Auto Duplex, and Network"
+          },
+          {
+            "id": "2",
+            "title": "Print Speed",
+            "content": "Up to 45 pages per minute (ppm) in color and black & white"
+          },
+          {
+            "id": "3",
+            "title": "Paper Size",
+            "content": "Up to 12\" x 18\" / SRA3"
+          },
+          {
+            "id": "4",
+            "title": "Paper Input Capacity (std, max.)",
+            "content": "1,200 sheets standard, 4,700 sheets with options"
+          },
+          {
+            "id": "5",
+            "title": "Additional Features",
+            "content": "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Ricoh IM C6000",
+        "subName": "Color Laser Multifunction Printer",
+        "desc": "60ppm, Copy, Print, Scan, Auto Duplex, 2 Trays, Color",
+        "img": "/assets/img/products/c6000.png",
+        "features": [
+          {
+            "id": "1",
+            "title": "Standard Features",
+            "content": "Print, Copy, Scan, Fax, Auto Duplex, and Network"
+          },
+          {
+            "id": "2",
+            "title": "Print Speed",
+            "content": "Up to 60 pages per minute (ppm) in color and black & white"
+          },
+          {
+            "id": "3",
+            "title": "Paper Size",
+            "content": "Up to 12\" x 18\" / SRA3"
+          },
+          {
+            "id": "4",
+            "title": "Paper Input Capacity (std, max.)",
+            "content": "1,200 sheets standard, 4,700 sheets with options"
+          },
+          {
+            "id": "5",
+            "title": "Additional Features",
+            "content": "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Ricoh IM 3500",
+        "subName": "Black and White Laser Multifunction Printer",
+        "desc": "35ppm, Copy, Print, Scan, Auto Duplex, 2 Trays, Monochrome",
+        "img": "/assets/img/products/3500.png",
+        "features": [
+          {
+            "id": "1",
+            "title": "Standard Features",
+            "content": "Print, Copy, Scan, Auto Duplex, and Network"
+          },
+          {
+            "id": "2",
+            "title": "Print Speed",
+            "content": "Up to 35 pages per minute (ppm) in black & white"
+          },
+          {
+            "id": "3",
+            "title": "Paper Size",
+            "content": "Up to 11\" x 17\" / A3"
+          },
+          {
+            "id": "4",
+            "title": "Paper Input Capacity (std, max.)",
+            "content": "1,100 sheets standard, 2,300 sheets with options"
+          },
+          {
+            "id": "5",
+            "title": "Additional Features",
+            "content": "This machine is fully refurbished in-house by certified technicians. Comes with 30-Day Parts Warranty. Machine ships with as-is consumables and power cord only."
+          }
+        ]
       }
     ]
   },

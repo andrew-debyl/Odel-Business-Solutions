@@ -19,7 +19,7 @@ const Footer3 = () => {
                     <p>
                       Welcome to Odel Business Solutions, where innovation meets
                       comprehensive support. We’re your one-stop shop for all
-                      business IT needs, from office equipment to IT services.
+                      business technology needs.
                     </p>
                   </div>
                 </div>
@@ -121,7 +121,7 @@ const Footer3 = () => {
           </div>
           <div className="footer-bottom">
             <div className="copyright-area">
-              <p>Copyright © Odel Business Solutions. All rights reserved.</p>
+              <p>Copyright © 2024 Odel Business Solutions. All rights reserved.</p>
             </div>
           </div>
         </div>

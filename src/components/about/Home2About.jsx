@@ -15,8 +15,8 @@ const Home2About = () => {
                 >
                   <span>ODEL Business Solutions</span>
                   <h2>
-                    Comprehensive solutions with a focus on innovation
-                    &amp; customer satisfaction
+                    Comprehensive Solutions With a Focus on Innovation
+                    &amp; Customer Satisfaction
                   </h2>
                 </div>
                 <p>

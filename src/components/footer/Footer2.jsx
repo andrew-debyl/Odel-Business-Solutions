@@ -98,7 +98,7 @@ const Footer2 = () => {
           </div>
           <div className="footer-bottom">
             <div className="copyright-area">
-              <p>Copyright © Odel Business Solutions. All rights reserved.</p>
+              <p>Copyright © 2024 Odel Business Solutions. All rights reserved.</p>
             </div>
           </div>
         </div>

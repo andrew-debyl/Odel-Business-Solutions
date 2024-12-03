@@ -40,21 +40,13 @@ const Home4experience = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="single-experience">
-                  <div className="background-img">
-                    <img
-                      src="assets/img/home4/experience-card-bg-img2.jpg"
-                      alt=""
-                    />
-                  </div>
                   <div className="content">
-                    <h4>Discovery</h4>
+                    <h4>Commitment to Quality</h4>
                     <p>
-                      Welcome to Zenfy, where’r digital agi innovation meet
-                      strategic expensive dynamic force in the.
+                      We maintain the highest standards, ensuring that every
+                      solution we deliver enhances our clients' operational
+                      efficiency and overall performance.
                     </p>
-                  </div>
-                  <div className="number">
-                    <span>01</span>
                   </div>
                 </div>
               </div>
@@ -64,21 +56,12 @@ const Home4experience = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="single-experience">
-                  <div className="background-img">
-                    <img
-                      src="assets/img/home4/experience-card-bg-img1.jpg"
-                      alt=""
-                    />
-                  </div>
                   <div className="content">
-                    <h4>Strategy</h4>
+                    <h4>Customer-First Approach</h4>
                     <p>
-                      Welcome to Zenfy, where’r digital agi innovation meet
-                      strategic expensive dynamic force in the.
+                      We prioritize our clients’ success by understanding their
+                      goals and tailoring solutions that align perfectly.
                     </p>
-                  </div>
-                  <div className="number">
-                    <span>02</span>
                   </div>
                 </div>
               </div>
@@ -88,21 +71,13 @@ const Home4experience = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="single-experience">
-                  <div className="background-img">
-                    <img
-                      src="assets/img/home4/experience-card-bg-img3.jpg"
-                      alt=""
-                    />
-                  </div>
                   <div className="content">
-                    <h4>Development</h4>
+                    <h4>Innovation and Agility</h4>
                     <p>
-                      Welcome to Zenfy, where’r digital agi innovation meet
-                      strategic expensive dynamic force in the.
+                      In a rapidly evolving tech landscape, we stay at the
+                      forefront, adapting to new trends and innovating to
+                      provide cutting-edge solutions.
                     </p>
-                  </div>
-                  <div className="number">
-                    <span>03</span>
                   </div>
                 </div>
               </div>
@@ -125,9 +100,9 @@ const Home4experience = () => {
                         <circle cx={5} cy={5} r={5} />
                       </g>
                     </svg>
-                    Our Experience
+                    Our Skills
                   </span>
-                  <h2>Tracking Our Percentage</h2>
+                  <h2>Fields of Expertise</h2>
                 </div>
                 <div className="eg-progress-wrap">
                   <div className="eg-progress-bar-single mb-45">
@@ -135,31 +110,31 @@ const Home4experience = () => {
                       <h6>Web Design</h6>
                     </div>
                     <div className="eg-progress-bar">
-                      <div className="experience-bar-per" data-per={90} />
+                      <div className="experience-bar-per" data-per={75} />
                     </div>
                   </div>
                   <div className="eg-progress-bar-single mb-45">
                     <div className="eg-progress-bar-title">
-                      <h6>Digital Marketing</h6>
+                      <h6>Web Development</h6>
                     </div>
                     <div className="eg-progress-bar">
-                      <div className="experience-bar-per" data-per={80} />
+                      <div className="experience-bar-per" data-per={85} />
                     </div>
                   </div>
                   <div className="eg-progress-bar-single mb-45">
                     <div className="eg-progress-bar-title">
-                      <h6>Content Creation</h6>
+                      <h6>Networking</h6>
                     </div>
                     <div className="eg-progress-bar">
-                      <div className="experience-bar-per" data-per={80} />
+                      <div className="experience-bar-per" data-per={95} />
                     </div>
                   </div>
                   <div className="eg-progress-bar-single">
                     <div className="eg-progress-bar-title">
-                      <h6>App Development</h6>
+                      <h6>Customer Experience</h6>
                     </div>
                     <div className="eg-progress-bar">
-                      <div className="experience-bar-per" data-per={98} />
+                      <div className="experience-bar-per" data-per={90} />
                     </div>
                   </div>
                 </div>
