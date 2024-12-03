@@ -1257,7 +1257,13 @@ header.style-1 .nav-right .sidebar-and-btn .sidebar-btn {
 }
 header.style-1 .nav-right .sidebar-and-btn .sidebar-btn svg {
   fill: var(--text-color);
+  transition: all 300ms ease;
 }
+
+header.style-1 .nav-right .sidebar-and-btn .sidebar-btn svg:hover {
+  fill: #1762ac;
+}
+
 header.style-1 .nav-right .sidebar-and-btn .primary-btn2 {
   border-radius: 10px;
 }
@@ -1768,7 +1774,13 @@ header.style-2 .nav-right .sidebar-and-btn .sidebar-btn {
 }
 header.style-2 .nav-right .sidebar-and-btn .sidebar-btn svg {
   fill: var(--white-color);
+  transition: all 300ms ease;
 }
+
+header.style-2 .nav-right .sidebar-and-btn .sidebar-btn svg:hover {
+  fill: #1762ac;
+}
+
 header.style-2 .nav-right .sidebar-and-btn .primary-btn2 {
   background-color: var(--white-color);
   color: var(--dark-title-color);
